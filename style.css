@@ -1516,6 +1516,7 @@ div.btn-group ul.dropdown-menu li a[href='#footer'] {
 .offcanvas.offcanvas-end{
     width: 55%;
     background-color: rgba(20, 20, 20, 1);
+    z-index: 9999;
 }
 .offcanvas-backdrop.show {
     opacity: .7;
@@ -1533,6 +1534,10 @@ div.btn-group ul.dropdown-menu li a[href='#footer'] {
     inset: 3px;
     border-radius: 50px 5px;
     background: #551313;
+    background: url(./photos/img1-group3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-top: 5rem;
 }
 .offcanvas-body::before{
@@ -1578,7 +1583,7 @@ div.btn-group ul.dropdown-menu li a[href='#footer'] {
     font-family: 'Parisienne', cursive;
     font-size: 2rem;
     letter-spacing: 0.2rem;
-    color: #000;
+    color: #fd744a;
     font-weight: bold;
 }
 .form-childs{
@@ -1591,7 +1596,7 @@ label{
     font-size: 0.8rem;
     font-family: "Noto Serif", serif;
     font-weight: 700;
-    color: #000;
+    color: #fd744a;
 }
 .form-childs:last-child label{
     margin-bottom: 0;
@@ -1621,7 +1626,7 @@ input{
     padding: 0.7rem 1.2rem 0.6rem;
     font-family: 'Playfair Display', serif;
     color: #fff;
-    background-color: #000;
+    background-color: #fd744a;
     letter-spacing: 3.5px;
     outline: #000;
     font-weight: 600!important;
