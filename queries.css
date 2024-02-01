@@ -1872,7 +1872,7 @@
     .cont-head{
         display: flex;
         align-items: center;
-        padding: 0 0rem 0.5rem;
+        padding: 0 0;
     }
    /*For bootstrap sign up*/
     .modal-content {
@@ -2394,6 +2394,9 @@
         font-size: 1.2rem;
         width: 80%;
     }
+    .cont-head {
+        padding: 0 3rem;
+    }
 }
 /**************************************************************************************************************/
 @media ( 700px <= width <= 800px ){
@@ -2466,6 +2469,12 @@
     }
     header, video{
         height: 94vh;
+    }
+    .cont-head >h1 {
+        font-size: 45px;
+    }
+    .cont-head{
+        padding: 0;
     }
     /*For bootstrap sign up*/
     .modal-content {
@@ -2864,6 +2873,9 @@
         left: 35%;
         bottom: 88%;
     }
+    .cont-head {
+        padding: 0 2rem;
+    }
 }
 @media ( 763px <= width <= 800px ){
     .scrolling-text >p {
@@ -2942,6 +2954,12 @@
     }
     header, video{
         height: 94vh;
+    }
+    .cont-head >h1 {
+        font-size: 43px;
+    }
+    .cont-head{
+        padding: 0 2rem;
     }
     /*header */
     .head-container {
@@ -3442,7 +3460,20 @@
         padding: 6rem 1.5rem 6rem;
     }
     .head-container-element >p, .text-col >p {
-        font-size: 30px;
+        font-size: 20px;
+    }
+    .cont-head >h1 {
+        font-size: 40px!important;
+        width: 80%;
+    }
+    .cont-h1{
+        padding: 0 4.5rem;
+    }
+    .header-foody-logo {
+        width: 8rem;
+    }
+    .cont-head{
+        padding: 0 5rem;
     }
     /*Bootstrap modification for reservation*/
     .offcanvas-body{
@@ -3522,10 +3553,10 @@
     .cont-head{
         display: flex;
         align-items: center;
-        padding: 0 2rem 0 0;
+        padding: 0 8rem;
     }
     .header-foody-logo {
-        width: 12rem;
+        width: 11rem;
         padding-right: 2rem;
     }
     .btn-close {
@@ -3789,7 +3820,10 @@
         white-space: wrap;
     }
     .head-container-element >p, .text-col >p {
-        font-size: 26px;
+        font-size: 1.1rem;
+    }
+    .cont-head >h1 {
+        font-size: 43px;
     }
     .col{
         flex-direction: column;
@@ -3890,6 +3924,9 @@
         width: 7rem;
         left: 32%;
         bottom: 88%;
+    }
+    .cont-head {
+        padding: 0px 3rem;
     }
 }
 @media ( 857px <= width <= 899px ){
