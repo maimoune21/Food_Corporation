@@ -1854,7 +1854,7 @@
         padding: 0 5rem;
     }
     .cont-head >h1{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
     .header-foody-logo{
         width: 9rem;
@@ -2282,6 +2282,9 @@
         width: 6rem;
         left: 33%;
         bottom: 85%;
+    }
+    .cont-head {
+        padding: 0 2rem!important;
     }
 }
 @media ( 650px <= width <= 700px ){
