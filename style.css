@@ -39,6 +39,7 @@ body {
     margin-bottom: 0;
     font-family: "Salsa", cursive!important;
     padding-top: 1rem;
+    order: 2;
 }
 .header-foody-logo{
     width: 10rem;
