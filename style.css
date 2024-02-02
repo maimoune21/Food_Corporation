@@ -1028,32 +1028,78 @@ div.btn-group ul.dropdown-menu li a[href='#footer'] {
 }
 .place-child{
     width: 100%;
-    height: 17.5rem;
+    height: 16rem;
     box-shadow: -10px -10px 15px rgba(0,0,0, .3);
     overflow: hidden;
     display: flex;
     flex-direction: column;
 }
-.place-img figcaption:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-    background: #000;
+.figcaption1, .figcaption2, .figcaption3, .figcaption4, .figcaption5, .figcaption6{
+    transition: all 0.8s!important;
+    height: 100%!important;
+    width: 100%!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-size: 100% 100%!important; 
 }
-.place-img figcaption{
-    transition: all 0.8s;
-    height: 100%;
+.figcaption1:hover, .figcaption2:hover, .figcaption3:hover, .figcaption4:hover, .figcaption5:hover, .figcaption6:hover{
+    transform: scale(1.1)!important;
+    cursor: pointer!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-size: 100% 100%!important; 
 }
-.place-child img{
-    width: 100%;
-    height: 100%;
-    transition: all 0.8s;
+.figcaption1{
+    background: url(./photos/test/test.jpg);
 }
-.place-child img:hover{
-    opacity: 0.5;
-}.place-img{
+.figcaption1:hover{
+    background: url(./photos/test/test5-h.jpg);
+    opacity: 0.9;
+}
+.figcaption2{
+    background: url(./photos/test/test2.jpg);
+}
+.figcaption2:hover{
+    background: url(./photos/test/test-h.jpg);
+    opacity: 0.9;
+}
+.figcaption3{
+    background: url(./photos/test/test3.jpg);
+}
+.figcaption3:hover{
+    background: url(./photos/test/test3-h.jpg);
+    opacity: 0.9;
+}
+.figcaption4{
+    background: url(./photos/test/test4.jpg);
+}
+.figcaption4:hover{
+    background: url(./photos/test/test2-h.jpg);
+    opacity: 0.9;
+}
+.figcaption5{
+    background: url(./photos/test/test5.jpg);
+}
+.figcaption5:hover{
+    background: url(./photos/test/test4-h.jpg);
+    opacity: 0.9;
+}
+.figcaption6{
+    background: url(./photos/test/test6.jpg);
+}
+.figcaption6:hover{
+    background: url(./photos/test/test6-h.jpg);
+    opacity: 0.9;
+}
+.place-img{
     background-size: cover;
     height: 100%;
     overflow: hidden;
+}
+.place-img:hover{
+    background: rgba(0, 0, 0, 0.8);
 }
 .place-text{
     width: 100%;
@@ -1086,7 +1132,7 @@ div.btn-group ul.dropdown-menu li a[href='#footer'] {
 .card{
     background-color: #600016;
     border: none;
-    padding: 6rem 6.5rem;
+    padding: 6rem 8rem;
     border-radius: 0;
     box-shadow: rgba(0, 0, 0, 0.506) 0px 1px 14px inset;
 }
