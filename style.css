@@ -823,10 +823,7 @@ div.btn-group ul.dropdown-menu li a[href='#footer'] {
 /************************************************** Gallery **************************************************/
 .section-Gallery{
     padding: 4rem 6.5rem 7rem;
-    background-color: hsl(192, 20%, 80%);
-    background: url(./photos/test.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(231, 199, 164);
     box-shadow: inset 0 1px 14px hsla(0, 0%, 0%, 0.504);
 }
 .heading-secondary{
