@@ -1,0 +1,1640 @@
+/* require media */
+@media ( max-width: 400px ){
+    /* 0 */
+    header{
+        height: auto!important;
+        font-size: 0.5rem!important;
+        padding: 0.8rem!important;
+    }
+    nav{
+        gap: 0.4rem!important;
+    }
+    .logo{
+        height: 0.7rem!important;
+    }
+    .header-nav a:last-child {
+        padding: 0.3rem 0.4rem!important;
+    }
+    .header-nav{
+        display: none!important;
+    }
+    /* 1 */
+    .section-hero{
+        height: auto!important;
+        padding: 0 1rem 1rem!important;
+    }
+    .hero{
+        max-width: 20rem!important;
+        display: grid!important;
+        grid-template-columns: 1fr!important;
+        gap: 1.4rem!important;
+        align-items: center!important;
+        max-width: 80rem!important;
+        margin: 0 auto!important;
+        padding-top: 1.8rem!important;
+    }
+    .heading-primary {
+        font-size: 1.9rem!important;
+        margin-bottom: 1.6rem!important;
+    }
+    .hero-description {
+        font-size: 0.9rem!important;
+        margin-bottom: 1.1rem!important;
+    }
+    .btn,
+    .btn:link,
+    .btn:visited {
+        display: inline-block!important;
+        text-decoration: none!important;
+        font-size: 1rem!important;
+        padding: 0.5rem 1.4rem!important;
+        margin-bottom: 0.8rem!important;
+    }
+    .delivered-imgs img {
+        height: 2rem!important;
+        width: 2rem!important;
+    }
+    .delivered-text {
+        font-size: 0.69rem!important;
+    }
+    .delivered-meals{
+        margin: 0.4rem!important;
+    }
+    .hero-img{
+        width: 90%!important;
+        margin-left: 0rem!important;
+    }
+    .div-hero-img {
+        grid-row: 1!important;
+        text-align: center!important;
+        margin-top: 1rem!important;
+    }
+    /* 2 */
+    .section-featured {
+        padding: 1.5rem 0rem!important;
+    }
+    .container {
+        padding: 0 0.6rem!important;
+    }
+    .heading-featured-in {
+        font-size: 0.5rem!important;
+        margin-bottom: 0.8rem!important;
+    }
+    .logos img {
+        height: 0.6rem!important;
+    }
+    /* 3 */
+    .section-how {
+        padding: 2rem 0.8rem!important;
+    }
+    .subheading {
+        font-size: 0.6rem!important;
+        margin-bottom: 0.6rem!important;
+    }
+    .heading-secondary {
+        font-size: 0.9rem!important;
+        margin-bottom: 2.5rem!important;
+    }
+    .heading-tertiary {
+        font-size: 0.77rem!important;
+        margin-bottom: 0.8rem!important;
+    }
+    .step-number {
+        font-size: 1.8rem!important;
+        margin-bottom: 0.4rem!important;
+    }
+    .step-description {
+        font-size: 0.5rem!important;
+    }
+    .grid {
+        column-gap: 1.7rem!important;
+        row-gap: 3.5rem!important;
+    }
+    /* 4 */
+    .section-meals {
+        padding: 0.8rem!important;
+        padding-top: 2rem;
+    }
+    .bottom-space {
+        margin-bottom: 2rem!important;
+    }
+    .grid-3-cols {
+        grid-template-columns: repeat(1, 1fr)!important;
+    }
+    .meal{
+        margin: 0 auto;
+        max-width: 13rem;
+    }
+    .main-meal{
+        display: grid!important;
+        grid-template-columns: 2fr!important;
+        gap: 1rem!important;
+    }
+    .meal-content {
+        padding: 0.8rem!important;
+    }
+    .tag {
+        padding: 0.2rem 0.8rem!important;
+        font-size: 0.4rem!important;
+    }
+    .meal-title {
+        font-size: 0.7rem!important;
+        margin-bottom: 1.2rem!important;
+    }
+    .meal-attribute {
+        font-size: 0.6rem!important;
+    }
+    .meal-icon {
+        height: 0.8rem!important;
+        width: 0.8rem!important;
+        padding-right: 0.6rem!important;
+    }
+    .list{
+        display: grid!important;
+        grid-template-columns: repeat(4, 1fr)!important;
+        grid-template-rows: 1fr auto!important;
+    }
+    .list-item {
+        font-size: 0.55rem!important;
+        gap: 0.4rem!important;
+    }
+    .list-icon {
+        width: 0.8rem!important;
+        height: 0.8rem!important;
+    }
+    .meal3{
+        padding: 0.5rem!important;
+    }
+    .all-recipes {
+        font-size: 0.6rem!important;
+        padding: 0rem 3rem 1rem!important;
+    }
+    /* 5 */
+    .section-testimonials {
+        padding: 2rem 1rem!important;
+        grid-template-columns: 1fr!important;
+    }
+    .testimonials-container {
+        margin-right: 0rem!important;
+    }
+    .testimonial-img {
+        width: 2.2rem!important;
+    }
+    .testimonial-text {
+        font-size: 0.7rem!important;
+        margin-bottom: 0.6rem!important;
+    }
+    .testimonials {
+        row-gap: 1.4rem!important;
+        column-gap: 2rem!important;
+    }
+    .gallery-item img {
+        width: 90%!important;
+        padding-right: 0rem!important;
+    }
+    .gallery{
+        margin: 0 auto;
+        max-width: 23rem;
+        margin-top: 2rem;
+        gap: 0.4rem!important;
+    }
+    /* 6 */
+    .section-pricing {
+        padding: 1rem 1rem!important;
+    }
+    .plan-name {
+        font-size: 0.5rem!important;
+        margin-left: 1rem!important;
+        letter-spacing: 0.5rem!important;
+    }
+    .plan-price {
+        font-size: 1.5rem!important;
+    }
+    .plan-price span {
+        font-size: 1.2rem!important;
+    }
+    .plan-text {
+        font-size: 0.55rem!important;
+    }
+    .list-row{
+        display: flex!important;
+        flex-direction: column!important;
+    }
+    .pricing-div {
+        grid-template-columns: repeat(1, 1fr)!important;
+        row-gap: 1.6rem!important;
+    }
+    .pricing-plan-starter {
+        justify-self: center!important;
+        padding: 1rem!important;
+    }
+    .pricing-plan-complete {
+        justify-self: center!important;
+        padding: 1rem!important;
+    }
+    .plan-sing-up {
+        margin-top: 1.4rem!important;
+    }
+    .plan-details {
+        font-size: 0.7rem!important;
+        margin-bottom: 3rem!important;
+    }
+    .grid-4-cols {
+        grid-template-columns: repeat(2, 1fr)!important;
+        gap: 1.5rem!important;
+    }
+    .feature-icon {
+        height: 1.2rem!important;
+        width: 1.2rem!important;
+        margin-bottom: 0.8rem!important;
+    }
+    .feature-title {
+        font-size: 0.8rem!important;
+    }
+    .feature-text {
+        font-size: 0.66rem!important;
+    }
+    /* 7 */
+    .section-cta {
+        padding: 1rem 1rem!important;
+        padding-top: 5rem!important;
+    }
+    .cta-text-box {
+        padding: 1.2rem 1.6rem 1.6rem 1.6rem!important;
+    }
+    .cta-text {
+        font-size: 0.7rem!important;
+    }
+    .cta-form {
+        grid-template-columns: 1fr!important;
+        column-gap: 0.8rem!important;
+        row-gap: 1rem!important;
+    }
+    /* 8 */
+    footer {
+        padding: 8rem 4rem 3rem!important;
+    }
+    .grid-footer {
+        grid-template-columns: repeat(3, 1fr)!important;
+        column-gap: 1.2rem!important;
+        row-gap: 2.4rem!important;
+    }
+    .footer-logo {
+        margin-bottom: 1.4rem!important;
+    }
+    .copyright {
+        font-size: 0.66rem!important;
+    }
+    .social-links {
+        margin-bottom: 0.4rem!important;
+    }
+    .footer-heading {
+        font-size: 0.9rem!important;
+        margin-bottom: 1.4rem!important;
+    }
+    .contacts {
+        font-size: 0.7rem!important;
+    }
+    .footer-link{
+        font-size: 0.7rem!important;
+        white-space: nowrap!important;
+    }
+    .footer-nav {
+        gap: 0.5rem!important;
+    }
+    /* 9 */
+    .btn-coffe,
+    .btn-coffe:link,
+    .btn-coffe:visited {
+        font-size: 0.9rem;
+        padding: 0.6rem 1rem;
+}
+}
+@media ( 400px <= width <= 650px ){
+    /* 0 */
+    header{
+        height: auto!important;
+        font-size: 0.6rem!important;
+        padding: 1rem!important;
+    }
+    nav{
+        gap: 0.4rem!important;
+    }
+    .logo{
+        height: 0.8rem!important;
+    }
+    .header-nav a:last-child {
+        padding: 0.39rem 0.5rem!important;
+    }
+    .dropdown-icon{
+        height: 2rem!important;
+        width: 2rem!important;
+    }
+    .header-nav{
+        display: none!important;
+    }
+    /* 1 */
+    .section-hero{
+        height: auto!important;
+        padding: 0 0.8rem 0.8rem!important;
+    }
+    .hero{
+        max-width: 20rem!important;
+        display: grid!important;
+        grid-template-columns: 1fr!important;
+        gap: 1rem!important;
+        align-items: center!important;
+        max-width: 80rem!important;
+        margin: 0 auto!important;
+        padding-top: 1.8rem!important;
+    }
+    .heading-primary {
+        font-size: 1.7rem!important;
+        letter-spacing: 1px!important;
+        margin-bottom: 1.5rem!important;
+        margin: 0 1rem 0 2rem;
+    }
+    .hero-description {
+        font-size: 0.8rem!important;
+        margin-bottom: 1.1rem!important;
+        margin: 0 1rem 0 2rem;
+    }
+    .btn,
+    .btn:link,
+    .btn:visited {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 0.6rem!important;
+        padding: 0.5rem 0.6rem!important;
+        margin-bottom: 0.8rem!important;
+    }
+    .btn-for-mbl{
+        margin-left: 2rem!important;
+    }
+    .delivered-meals{
+        margin: 1rem 1rem 0 2rem!important;
+    }
+    .delivered-imgs img {
+        height: 2rem!important;
+        width: 2rem!important;
+    }
+    .delivered-text {
+        font-size: 0.8rem!important;
+    }
+    .hero-img{
+        width: 75%!important;
+        margin-left: 0rem!important;
+    }
+    .div-hero-img {
+        grid-row: 1!important;
+        text-align: center!important;
+        padding: 1rem 0rem!important;
+    }
+    /* 2 */
+    .section-featured {
+        height: auto!important;
+        padding: 2rem 0.8rem 0.5rem!important;
+    }
+    .container {
+        padding: 0 0rem!important;
+    }
+    .heading-featured-in {
+        font-size: 0.5rem!important;
+        margin-bottom: 0.8rem!important;
+    }
+    .logos img {
+        height: 0.7rem!important;
+    }
+    /* 3 */
+    .section-how {
+        padding: 2rem 3rem!important;
+    }
+    .subheading {
+        font-size: 0.6rem!important;
+        margin-bottom: 0.6rem!important;
+    }
+    .heading-secondary {
+        font-size: 0.9rem!important;
+        margin-bottom: 2.5rem!important;
+    }
+    .heading-tertiary {
+        font-size: 0.55rem!important;
+        margin-bottom: 0.8rem!important;
+    }
+    .step-number {
+        font-size: 1.8rem!important;
+        margin-bottom: 0.4rem!important;
+    }
+    .step-description {
+        font-size: 0.4rem!important;
+    }
+    .grid {
+        column-gap: 1.7rem!important;
+        row-gap: 3.5rem!important;
+    }
+    /* 4 */
+    .section-meals {
+        padding: 0.8rem!important;
+        padding-top: 2rem;
+    }
+    .bottom-space {
+        margin-bottom: 2rem!important;
+    }
+    .grid-3-cols {
+        grid-template-columns: repeat(1, 1fr)!important;
+    }
+    .main-meal{
+        display: grid!important;
+        grid-template-columns: 1fr 1fr!important;
+        gap: 1rem!important;
+    }
+    .meal-content {
+        padding: 0.8rem!important;
+    }
+    .tag {
+        padding: 0.2rem 0.8rem!important;
+        font-size: 0.4rem!important;
+    }
+    .meal-title {
+        font-size: 0.7rem!important;
+        margin-bottom: 1.2rem!important;
+    }
+    .meal-attribute {
+        font-size: 0.6rem!important;
+    }
+    .meal-icon {
+        height: 0.8rem!important;
+        width: 0.8rem!important;
+        padding-right: 0.6rem!important;
+    }
+    .list{
+        display: grid!important;
+        grid-template-columns: repeat(4, 1fr)!important;
+        grid-template-rows: 1fr auto!important;
+    }
+    .list-item {
+        font-size: 0.56rem!important;
+        gap: 0.4rem!important;
+    }
+    .list-icon {
+        width: 0.8rem!important;
+        height: 0.8rem!important;
+    }
+    .meal3{
+        padding: 0rem!important;
+    }
+    .all-recipes {
+        font-size: 0.6rem!important;
+        padding: 1.5rem 3rem 1rem!important;
+    }
+    /* 5 */
+    .section-testimonials {
+        padding: 2rem 1rem!important;
+        grid-template-columns: 1fr!important;
+    }
+    .testimonials-container {
+        margin-right: 0rem!important;
+    }
+    .testimonial-img {
+        width: 2.2rem!important;
+    }
+    .testimonial-text {
+        font-size: 0.7rem!important;
+        margin-bottom: 0.6rem!important;
+    }
+    .testimonials {
+        row-gap: 1.4rem!important;
+        column-gap: 2rem!important;
+    }
+    .gallery-item img {
+        width: 90%!important;
+        padding-right: 0rem!important;
+    }
+    .gallery{
+        margin: 0 auto;
+        max-width: 28rem;
+        margin-top: 2rem;
+        gap: 0.4rem!important;
+        grid-template-columns: repeat(4, 1fr)!important;
+    }
+    /* 6 */
+    .section-pricing {
+        padding: 1rem 1rem!important;
+    }
+    .plan-name {
+        font-size: 0.7rem!important;
+        margin-left: 0rem!important;
+        letter-spacing: 0.5rem!important;
+    }
+    .plan-price {
+        font-size: 1.5rem!important;
+    }
+    .pricing-plan {
+        width: 90%!important;
+    }
+    .plan-price span {
+        font-size: 1.2rem!important;
+    }
+    .plan-text {
+        font-size: 0.55rem!important;
+    }
+    .list-row{
+        display: flex!important;
+        flex-direction: column!important;
+    }
+    .pricing-div {
+        grid-template-columns: repeat(2, 1fr)!important;
+        row-gap: 1rem!important;
+        column-gap: 0rem!important;
+        padding: 0rem!important;
+    }
+    .pricing-plan-starter {
+        justify-self: center!important;
+        padding: 1rem!important;
+    }
+    .pricing-plan-complete {
+        justify-self: center!important;
+        padding: 1rem!important;
+    }
+    .plan-sing-up {
+        margin-top: 1.4rem!important;
+    }
+    .plan-details {
+        font-size: 0.7rem!important;
+        margin-bottom: 3rem!important;
+    }
+    .grid-4-cols {
+        grid-template-columns: repeat(2, 1fr)!important;
+        gap: 1.5rem!important;
+    }
+    .feature-icon {
+        height: 1.2rem!important;
+        width: 1.2rem!important;
+        margin-bottom: 0.8rem!important;
+    }
+    .feature-title {
+        font-size: 0.8rem!important;
+    }
+    .feature-text {
+        font-size: 0.66rem!important;
+    }
+    /* 7 */
+    .section-cta {
+        padding: 1rem 1rem!important;
+        padding-top: 5rem!important;
+    }
+    .cta-text-box {
+        padding: 1.2rem 1.6rem 1.6rem 1.6rem!important;
+    }
+    .cta-text {
+        font-size: 0.7rem!important;
+    }
+    .cta-form {
+        grid-template-columns: 1fr!important;
+        column-gap: 0.8rem!important;
+        row-gap: 1rem!important;
+    }
+    /* 8 */
+    footer {
+        padding: 5rem 4rem 3rem!important;
+    }
+    .grid-footer {
+        grid-template-columns: repeat(3, 1fr)!important;
+        column-gap: 1.2rem!important;
+        row-gap: 2.4rem!important;
+    }
+    .footer-logo {
+        margin-bottom: 1.4rem!important;
+    }
+    .copyright {
+        font-size: 0.66rem!important;
+    }
+    .social-links {
+        margin-bottom: 0.4rem!important;
+    }
+    .footer-heading {
+        font-size: 0.9rem!important;
+        margin-bottom: 1.4rem!important;
+    }
+    .contacts {
+        font-size: 0.7rem!important;
+    }
+    .footer-link{
+        font-size: 0.7rem!important;
+        white-space: nowrap!important;
+    }
+    .footer-nav {
+        gap: 0.5rem!important;
+    }
+    /* 9 */
+    .btn-coffe,
+.btn-coffe:link,
+.btn-coffe:visited {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+}
+}
+@media ( 500px <= width <= 650px ){
+    .hero-img{
+        width: 70%!important;
+        margin-left: 0rem!important;
+    }
+    /* 9 */
+    .btn-coffe,
+.btn-coffe:link,
+.btn-coffe:visited {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+}
+}
+@media ( 651px <= width <= 850px ){
+        /* 0 */
+        header{
+            height: auto!important;
+            font-size: 0.9rem!important;
+            padding: 1.3rem!important;
+        }
+        nav{
+            gap: 1rem!important;
+        }
+        .logo{
+            height: 1rem!important;
+        }
+        .header-nav a:last-child {
+            padding: 0.39rem 0.5rem!important;
+        }
+        .header-nav{
+            display: flex!important;
+            justify-content: center!important;
+        }
+        .header-nav a{
+            display: block!important;
+        }
+        .dropdown{
+            display: none!important;
+        }
+        /* 1 */
+        .section-hero{
+            height: auto!important;
+            padding: 5rem 0.8rem 9rem!important;
+        }
+        .hero{
+            max-width: 20rem!important;
+            display: grid!important;
+            grid-template-columns: 2fr 2fr!important;
+            gap: 1rem!important;
+            align-items: center!important;
+            max-width: 80rem!important;
+            margin: 0 auto!important;
+            padding-top: 1.8rem!important;
+        }
+        .heading-primary {
+            font-size: 1.7rem!important;
+            letter-spacing: 1px!important;
+            margin-bottom: 2rem!important;
+            margin: 0 1rem 0 2rem;
+        }
+        .hero-description {
+            font-size: 0.8rem!important;
+            margin-bottom: 1.5rem!important;
+            margin: 0 1rem 0 2rem;
+        }
+        .btn,
+        .btn:link,
+        .btn:visited {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 0.8rem!important;
+            padding: 0.6rem 1.2rem!important;
+            margin-bottom: 0.8rem!important;
+        }
+        .btn-full{
+            margin: 0 1rem 0 2rem!important;
+        }
+        .delivered-meals{
+            margin: 1rem 1rem 0 2rem!important;
+        }
+        .delivered-imgs img {
+            height: 2rem!important;
+            width: 2rem!important;
+        }
+        .delivered-text {
+            font-size: 0.8rem!important;
+        }
+        .hero-img{
+            width: 100%!important;
+            margin-left: 0rem!important;
+        }
+        .div-hero-img {
+            text-align: center!important;
+            padding: 1rem 0rem!important;
+        }
+        /* 2 */
+        .section-featured {
+            height: auto!important;
+            padding: 2rem 0.8rem 0.5rem!important;
+        }
+        .container {
+            padding: 0 2rem!important;
+        }
+        .heading-featured-in {
+            font-size: 0.5rem!important;
+            margin-bottom: 0.8rem!important;
+        }
+        .logos img {
+            height: 0.9rem!important;
+        }
+        /* 3 */
+        .section-how {
+            padding: 2rem 3rem!important;
+        }
+        .subheading {
+            font-size: 1rem!important;
+            margin-bottom: 0.6rem!important;
+        }
+        .heading-secondary {
+            font-size: 1.4rem!important;
+            margin-bottom: 2.5rem!important;
+        }
+        .heading-tertiary {
+            font-size: 0.7rem!important;
+            margin-bottom: 0.8rem!important;
+        }
+        .step-number {
+            font-size: 2.4rem!important;
+            margin-bottom: 0.4rem!important;
+        }
+        .step-description {
+            font-size: 0.7rem!important;
+        }
+        .grid {
+            column-gap: 1.7rem!important;
+            row-gap: 3.5rem!important;
+        }
+        /* 4 */
+        .section-meals {
+            padding: 0.8rem!important;
+            padding-top: 2rem;
+        }
+        .bottom-space {
+            margin-bottom: 2rem!important;
+        }
+        .grid-3-cols {
+            grid-template-columns: repeat(2, 1fr)!important;
+            grid-template-columns: 3.5fr 1fr!important;
+        }
+        .main-meal{
+            display: grid!important;
+            grid-template-columns: 1fr 1fr!important;
+            gap: 1rem!important;
+        }
+        .meal-content {
+            padding: 0.8rem!important;
+        }
+        .tag {
+            padding: 0.2rem 0.8rem!important;
+            font-size: 0.6rem!important;
+        }
+        .meal-title {
+            font-size: 1rem!important;
+            margin-bottom: 1.2rem!important;
+        }
+        .meal-attribute {
+            font-size: 0.77rem!important;
+        }
+        .meal-icon {
+            height: 1rem!important;
+            width: 1rem!important;
+            padding-right: 0.6rem!important;
+        }
+        .list-item {
+            font-size: 0.77rem!important;
+            gap: 0.4rem!important;
+        }
+        .list-icon {
+            width: 0.8rem!important;
+            height: 0.8rem!important;
+        }
+        .meal3{
+            padding: 0rem!important;
+        }
+        .all-recipes {
+            font-size: 0.6rem!important;
+            padding: 1.5rem 3rem 1rem!important;
+        }
+        /* 5 */
+        .section-testimonials {
+            padding: 2rem 1rem!important;
+            grid-template-columns: 1fr!important;
+        }
+        .testimonials-container {
+            margin-right: 0rem!important;
+        }
+        .testimonial-img {
+            width: 2.2rem!important;
+        }
+        .testimonial-text {
+            font-size: 0.7rem!important;
+            margin-bottom: 0.6rem!important;
+        }
+        .testimonials {
+            row-gap: 1.4rem!important;
+            column-gap: 2rem!important;
+        }
+        .gallery-item img {
+            width: 90%!important;
+            padding-right: 0rem!important;
+        }
+        .gallery{
+            margin: 0 auto;
+            max-width: 28rem;
+            margin-top: 2rem;
+            gap: 0.4rem!important;
+            grid-template-columns: repeat(4, 1fr)!important;
+        }
+        /* 6 */
+        .section-pricing {
+            padding: 1rem 1rem!important;
+        }
+        .plan-name {
+            font-size: 0.7rem!important;
+            margin-left: 0rem!important;
+            letter-spacing: 0.5rem!important;
+        }
+        .plan-price {
+            font-size: 1.5rem!important;
+        }
+        .pricing-plan {
+            width: 90%!important;
+        }
+        .plan-price span {
+            font-size: 1.2rem!important;
+        }
+        .plan-text {
+            font-size: 0.55rem!important;
+        }
+        .list-row{
+            display: flex!important;
+            flex-direction: column!important;
+        }
+        .pricing-div {
+            grid-template-columns: repeat(2, 1fr)!important;
+            row-gap: 1rem!important;
+            column-gap: 0rem!important;
+            padding: 0rem!important;
+        }
+        .pricing-plan-starter {
+            justify-self: center!important;
+            padding: 1rem!important;
+        }
+        .pricing-plan-complete {
+            justify-self: center!important;
+            padding: 1rem!important;
+        }
+        .plan-sing-up {
+            margin-top: 1.4rem!important;
+        }
+        .plan-details {
+            font-size: 0.8rem!important;
+            margin-bottom: 3rem!important;
+        }
+        .grid-4-cols {
+            grid-template-columns: repeat(2, 1fr)!important;
+            gap: 1.5rem!important;
+        }
+        .feature-icon {
+            height: 1.2rem!important;
+            width: 1.2rem!important;
+            margin-bottom: 0.8rem!important;
+        }
+        .feature-title {
+            font-size: 0.9rem!important;
+        }
+        .feature-text {
+            font-size: 0.77rem!important;
+        }
+        /* 7 */
+        .section-cta {
+            padding: 1rem 1rem!important;
+            padding-top: 5rem!important;
+        }
+        .cta-text-box {
+            padding: 1.2rem 1.6rem 1.6rem 1.6rem!important;
+        }
+        .cta-text {
+            font-size: 0.7rem!important;
+        }
+        .cta-form {
+            grid-template-columns: 1fr!important;
+            column-gap: 0.8rem!important;
+            row-gap: 1rem!important;
+        }
+        /* 8 */
+        footer {
+            padding: 5rem 0rem 3rem!important;
+        }
+        .grid-footer {
+            grid-template-columns: repeat(3, 1fr)!important;
+            column-gap: 1.2rem!important;
+            row-gap: 2.4rem!important;
+        }
+        .footer-logo {
+            margin-bottom: 1.4rem!important;
+        }
+        .copyright {
+            font-size: 0.66rem!important;
+        }
+        .social-links {
+            margin-bottom: 0.4rem!important;
+        }
+        .footer-heading {
+            font-size: 0.9rem!important;
+            margin-bottom: 1.4rem!important;
+        }
+        .contacts {
+            font-size: 0.7rem!important;
+        }
+        .footer-link{
+            font-size: 0.7rem!important;
+            white-space: nowrap!important;
+        }
+        .footer-nav {
+            gap: 0.5rem!important;
+        }
+        /* 9 */
+    .btn-coffe,
+    .btn-coffe:link,
+    .btn-coffe:visited {
+        font-size: 0.9rem;
+        padding: 0.6rem 4rem;
+    }
+}
+@media ( 851px <= width <= 1000px ){
+    /* 0 */
+    header{
+        height: auto!important;
+        font-size: 1rem!important;
+        padding: 1.4rem!important;
+    }
+    nav{
+        gap: 1rem!important;
+    }
+    .logo{
+        height: 1.3rem!important;
+    }
+    .header-nav a:last-child {
+        padding: 0.39rem 0.5rem!important;
+    }
+    .header-nav{
+        display: flex!important;
+        justify-content: center!important;
+    }
+    .header-nav a{
+        display: block!important;
+    }
+    .dropdown{
+        display: none!important;
+    }
+    /* 1 */
+    .section-hero{
+        height: auto!important;
+        padding: 2rem 0.8rem 8rem!important;
+    }
+    .hero{
+        max-width: 20rem!important;
+        display: grid!important;
+        grid-template-columns: 2fr 2fr!important;
+        gap: 1rem!important;
+        align-items: center!important;
+        max-width: 80rem!important;
+        margin: 0 auto!important;
+        padding-top: 1.8rem!important;
+    }
+    .heading-primary {
+        font-size: 2.2rem!important;
+        letter-spacing: 1px!important;
+        margin-bottom: 2rem!important;
+        margin: 0 1rem 0 2rem;
+    }
+    .hero-description {
+        font-size: 1rem!important;
+        margin-bottom: 2.4rem!important;
+        margin: 0 1rem 0 2rem;
+    }
+    .btn,
+    .btn:link,
+    .btn:visited {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1rem!important;
+        padding: 0.66rem 1.6rem!important;
+        margin-bottom: 1rem!important;
+    }
+    .btn-full{
+        margin: 0 1rem 0 2rem!important;
+    }
+    .delivered-meals{
+        margin: 1rem 1rem 0 2rem!important;
+    }
+    .delivered-imgs img {
+        height: 2rem!important;
+        width: 2rem!important;
+    }
+    .delivered-text {
+        font-size: 0.8rem!important;
+    }
+    .hero-img{
+        width: 100%!important;
+        margin-left: 0rem!important;
+    }
+    .div-hero-img {
+        text-align: center!important;
+        padding: 1rem 0rem!important;
+    }
+    /* 2 */
+    .section-featured {
+        height: auto!important;
+        padding: 2rem 0.8rem 0.5rem!important;
+    }
+    .container {
+        padding: 0 8rem!important;
+    }
+    .heading-featured-in {
+        font-size: 0.5rem!important;
+        margin-bottom: 1rem!important;
+    }
+    .logos img {
+        height: 1.2rem!important;
+    }
+    /* 3 */
+    .section-how {
+        padding: 2rem 3rem!important;
+    }
+    .subheading {
+        font-size: 1rem!important;
+        margin-bottom: 0.6rem!important;
+    }
+    .heading-secondary {
+        font-size: 1.4rem!important;
+        margin-bottom: 2.5rem!important;
+    }
+    .heading-tertiary {
+        font-size: 0.7rem!important;
+        margin-bottom: 0.8rem!important;
+    }
+    .step-number {
+        font-size: 2.4rem!important;
+        margin-bottom: 0.4rem!important;
+    }
+    .step-description {
+        font-size: 0.7rem!important;
+    }
+    .grid {
+        column-gap: 1.7rem!important;
+        row-gap: 3.5rem!important;
+    }
+    /* 4 */
+    .section-meals {
+        padding: 0.8rem!important;
+        padding-top: 2rem;
+    }
+    .bottom-space {
+        margin-bottom: 2rem!important;
+    }
+    .grid-3-cols {
+        grid-template-columns: repeat(2, 1fr)!important;
+        grid-template-columns: 4fr 1fr!important;
+        column-gap: 2rem!important;
+        padding: 1.4rem!important;
+    }
+    .main-meal{
+        display: grid!important;
+        grid-template-columns: 1fr 1fr!important;
+        gap: 1rem!important;
+    }
+    .meal-content {
+        padding: 0.8rem!important;
+    }
+    .tag {
+        padding: 0.2rem 0.8rem!important;
+        font-size: 0.6rem!important;
+    }
+    .meal-title {
+        font-size: 1rem!important;
+        margin-bottom: 1.2rem!important;
+    }
+    .meal-attribute {
+        font-size: 0.77rem!important;
+    }
+    .meal-icon {
+        height: 1rem!important;
+        width: 1rem!important;
+        padding-right: 0.6rem!important;
+    }
+    .list{
+        gap: 1.2rem!important;
+    }
+    .list-item {
+        font-size: 0.77rem!important;
+        gap: 0.4rem!important;
+    }
+    .list-icon {
+        width: 0.8rem!important;
+        height: 0.8rem!important;
+    }
+    .meal3{
+        padding: 0rem!important;
+    }
+    .all-recipes {
+        font-size: 1rem!important;
+        padding: 1rem 3rem 1rem!important;
+    }
+    /* 5 */
+    .section-testimonials {
+        padding: 2rem 1rem!important;
+        grid-template-columns: 1fr 1fr!important;
+    }
+    .testimonials-container {
+        margin-right: 0rem!important;
+    }
+    .testimonial-img {
+        width: 2.2rem!important;
+    }
+    .testimonial-text {
+        font-size: 0.7rem!important;
+        margin-bottom: 0.6rem!important;
+    }
+    .testimonials {
+        row-gap: 1.4rem!important;
+        column-gap: 2rem!important;
+    }
+    .gallery-item img {
+        width: 90%!important;
+        padding-right: 0rem!important;
+    }
+    .gallery{
+        margin: 0 auto;
+        max-width: 28rem;
+        margin-top: 2rem;
+        gap: 0.4rem!important;
+        grid-template-columns: repeat(3, 1fr)!important;
+    }
+    /* 6 */
+    .section-pricing {
+        padding: 4rem 1rem!important;
+    }
+    .plan-name {
+        font-size: 0.7rem!important;
+        margin-left: 0rem!important;
+        letter-spacing: 0.5rem!important;
+    }
+    .plan-price {
+        font-size: 1.5rem!important;
+    }
+    .pricing-plan {
+        width: 90%!important;
+    }
+    .plan-price span {
+        font-size: 1.2rem!important;
+    }
+    .plan-text {
+        font-size: 0.55rem!important;
+    }
+    .list-row{
+        display: flex!important;
+        flex-direction: column!important;
+    }
+    .pricing-div {
+        grid-template-columns: repeat(2, 1fr)!important;
+        row-gap: 1rem!important;
+        column-gap: 0rem!important;
+        padding: 0rem!important;
+    }
+    .pricing-plan-starter {
+        justify-self: center!important;
+        padding: 1rem!important;
+    }
+    .pricing-plan-complete {
+        justify-self: center!important;
+        padding: 1rem!important;
+    }
+    .plan-sing-up {
+        margin-top: 1.4rem!important;
+    }
+    .plan-details {
+        font-size: 0.8rem!important;
+        margin-bottom: 3rem!important;
+    }
+    .grid-4-cols {
+        grid-template-columns: repeat(2, 1fr)!important;
+        gap: 1.5rem!important;
+    }
+    .feature-icon {
+        height: 1.2rem!important;
+        width: 1.2rem!important;
+        margin-bottom: 0.8rem!important;
+    }
+    .feature-title {
+        font-size: 0.9rem!important;
+    }
+    .feature-text {
+        font-size: 0.77rem!important;
+    }
+    /* 7 */
+    .section-cta {
+        padding: 1rem 1rem!important;
+        padding-top: 5rem!important;
+    }
+    .cta{
+        padding: 0 1.8rem!important;
+    }
+    .cta-text-box {
+        padding: 1.2rem 1.6rem 1.6rem 1.6rem!important;
+    }
+    .cta-text {
+        font-size: 0.7rem!important;
+    }
+    .cta-form {
+        grid-template-columns: 1fr!important;
+        column-gap: 0.8rem!important;
+        row-gap: 1rem!important;
+    }
+    /* 8 */
+    footer {
+        padding: 5rem 0rem 3rem!important;
+    }
+    .grid-footer {
+        grid-template-columns: repeat(3, 1fr)!important;
+        column-gap: 1.2rem!important;
+        row-gap: 2.4rem!important;
+        padding: 1rem 3rem!important;
+    }
+    .footer-logo {
+        margin-bottom: 1.4rem!important;
+    }
+    .copyright {
+        font-size: 0.66rem!important;
+    }
+    .social-links {
+        margin-bottom: 0.4rem!important;
+    }
+    .footer-heading {
+        font-size: 0.9rem!important;
+        margin-bottom: 1.4rem!important;
+    }
+    .contacts {
+        font-size: 0.7rem!important;
+    }
+    .footer-link{
+        font-size: 0.7rem!important;
+        white-space: nowrap!important;
+    }
+    .footer-nav {
+        gap: 0.5rem!important;
+    }
+}
+@media ( 1001px <= width <= 1200px ){
+        /* 0 */
+        header{
+            height: auto!important;
+            font-size: 1rem!important;
+            padding: 1.4rem!important;
+        }
+        nav{
+            gap: 1rem!important;
+        }
+        .logo{
+            height: 1.3rem!important;
+        }
+        .header-nav a:last-child {
+            padding: 0.39rem 0.5rem!important;
+        }
+        .header-nav{
+            display: flex!important;
+            justify-content: center!important;
+        }
+        .header-nav a{
+            display: block!important;
+        }
+        .dropdown{
+            display: none!important;
+        }
+        /* 1 */
+        .section-hero{
+            height: auto!important;
+            padding: 0rem 0.8rem 3rem!important;
+        }
+        .hero{
+            max-width: 20rem!important;
+            display: grid!important;
+            grid-template-columns: 2fr 2fr!important;
+            gap: 1rem!important;
+            align-items: center!important;
+            max-width: 80rem!important;
+            margin: 0 auto!important;
+            padding-top: 1.8rem!important;
+        }
+        .heading-primary {
+            font-size: 2.6rem!important;
+            letter-spacing: 1px!important;
+            margin-bottom: 1.5rem!important;
+            margin: 0 1rem 0 2rem;
+        }
+        .hero-description {
+            font-size: 1rem!important;
+            margin-bottom: 2rem!important;
+            margin: 0 1rem 0 2rem;
+        }
+        .btn,
+        .btn:link,
+        .btn:visited {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 1.2rem!important;
+            padding: 0.7rem 1.7rem!important;
+            margin-bottom: 1rem!important;
+        }
+        .btn-full{
+            margin: 0 1rem 0 2rem!important;
+        }
+        .delivered-meals{
+            margin: 1rem 1rem 0 2rem!important;
+        }
+        .delivered-imgs img {
+            height: 2rem!important;
+            width: 2rem!important;
+        }
+        .delivered-text {
+            font-size: 0.8rem!important;
+        }
+        .hero-img{
+            width: 100%!important;
+            margin-left: 0rem!important;
+        }
+        .div-hero-img {
+            text-align: center!important;
+            padding: 1rem 0rem!important;
+        }
+        /* 2 */
+        .section-featured {
+            height: auto!important;
+            padding: 4rem 0.8rem 4rem!important;
+        }
+        .container {
+            padding: 0 8rem!important;
+        }
+        .heading-featured-in {
+            font-size: 0.5rem!important;
+            margin-bottom: 1rem!important;
+        }
+        .logos img {
+            height: 1.2rem!important;
+        }
+        /* 3 */
+        .section-how {
+            padding: 2rem 3rem!important;
+        }
+        .subheading {
+            font-size: 1.4rem!important;
+            margin-bottom: 0.6rem!important;
+        }
+        .heading-secondary {
+            font-size: 2rem!important;
+            margin-bottom: 8rem!important;
+        }
+        .heading-tertiary {
+            font-size: 1.6rem!important;
+            margin-bottom: 0.8rem!important;
+        }
+        .step-number {
+            font-size: 4.5rem!important;
+            margin-bottom: 0.4rem!important;
+        }
+        .step-description {
+            font-size: 1rem!important;
+        }
+        .grid {
+            column-gap: 1.7rem!important;
+            row-gap: 3.5rem!important;
+        }
+        /* 4 */
+        .section-meals {
+            padding: 8rem 0.8rem 6rem!important;
+        }
+        .bottom-space {
+            margin-bottom: 2rem!important;
+        }
+        .grid-3-cols {
+            grid-template-columns: repeat(2, 1fr)!important;
+            grid-template-columns: 4fr 1fr!important;
+            column-gap: 2rem!important;
+            padding: 1.4rem!important;
+        }
+        .main-meal{
+            display: grid!important;
+            grid-template-columns: 1fr 1fr!important;
+            gap: 1rem!important;
+        }
+        .meal-content {
+            padding: 0.8rem!important;
+        }
+        .tag {
+            padding: 0.2rem 0.8rem!important;
+            font-size: 0.6rem!important;
+        }
+        .meal-title {
+            font-size: 1rem!important;
+            margin-bottom: 1.2rem!important;
+        }
+        .meal-attribute {
+            font-size: 0.77rem!important;
+        }
+        .meal-icon {
+            height: 1rem!important;
+            width: 1rem!important;
+            padding-right: 0.6rem!important;
+        }
+        .list{
+            gap: 1.2rem!important;
+        }
+        .list-item {
+            font-size: 0.77rem!important;
+            gap: 0.4rem!important;
+        }
+        .list-icon {
+            width: 0.8rem!important;
+            height: 0.8rem!important;
+        }
+        .meal3{
+            padding: 0rem!important;
+        }
+        .all-recipes {
+            font-size: 1rem!important;
+            padding: 1rem 3rem 1rem!important;
+        }
+        /* 5 */
+        .section-testimonials {
+            padding: 2rem 1rem!important;
+            grid-template-columns: 1fr 1fr!important;
+        }
+        .testimonials-container {
+            margin-right: 0rem!important;
+        }
+        .testimonial-img {
+            width: 2.2rem!important;
+        }
+        .testimonial-text {
+            font-size: 0.7rem!important;
+            margin-bottom: 0.6rem!important;
+        }
+        .testimonials {
+            row-gap: 1.4rem!important;
+            column-gap: 2rem!important;
+        }
+        .gallery-item img {
+            width: 90%!important;
+            padding-right: 0rem!important;
+        }
+        .gallery{
+            margin: 0 auto;
+            max-width: 28rem;
+            margin-top: 2rem;
+            gap: 0.4rem!important;
+            grid-template-columns: repeat(3, 1fr)!important;
+        }
+        /* 6 */
+        .section-pricing {
+            padding: 4rem 1rem!important;
+        }
+        .plan-name {
+            font-size: 0.7rem!important;
+            margin-left: 0rem!important;
+            letter-spacing: 0.5rem!important;
+        }
+        .plan-price {
+            font-size: 1.5rem!important;
+        }
+        .pricing-plan {
+            width: 90%!important;
+        }
+        .plan-price span {
+            font-size: 1.2rem!important;
+        }
+        .plan-text {
+            font-size: 0.55rem!important;
+        }
+        .list-row{
+            display: flex!important;
+            flex-direction: column!important;
+        }
+        .pricing-div {
+            grid-template-columns: repeat(2, 1fr)!important;
+            row-gap: 1rem!important;
+            column-gap: 0rem!important;
+            padding: 0rem!important;
+        }
+        .pricing-plan-starter {
+            justify-self: center!important;
+            padding: 1rem!important;
+        }
+        .pricing-plan-complete {
+            justify-self: center!important;
+            padding: 1rem!important;
+        }
+        .plan-sing-up {
+            margin-top: 1.4rem!important;
+        }
+        .plan-details {
+            font-size: 0.8rem!important;
+            margin-bottom: 3rem!important;
+        }
+        .grid-4-cols {
+            grid-template-columns: repeat(2, 1fr)!important;
+            gap: 1.5rem!important;
+        }
+        .feature-icon {
+            height: 1.2rem!important;
+            width: 1.2rem!important;
+            margin-bottom: 0.8rem!important;
+        }
+        .feature-title {
+            font-size: 0.9rem!important;
+        }
+        .feature-text {
+            font-size: 0.77rem!important;
+        }
+        /* 7 */
+        .section-cta {
+            padding: 1rem 1rem!important;
+            padding-top: 5rem!important;
+        }
+        .cta{
+            padding: 0 1.8rem!important;
+        }
+        .cta-text-box {
+            padding: 1.2rem 1.6rem 1.6rem 1.6rem!important;
+        }
+        .cta-text {
+            font-size: 0.7rem!important;
+        }
+        .cta-form {
+            grid-template-columns: 1fr!important;
+            column-gap: 0.8rem!important;
+            row-gap: 1rem!important;
+        }
+        /* 8 */
+        footer {
+            padding: 5rem 0rem 3rem!important;
+        }
+        .grid-footer {
+            grid-template-columns: repeat(3, 1fr)!important;
+            column-gap: 1.2rem!important;
+            row-gap: 2.4rem!important;
+            padding: 1rem 3rem!important;
+        }
+        .footer-logo {
+            margin-bottom: 1.4rem!important;
+        }
+        .copyright {
+            font-size: 0.66rem!important;
+        }
+        .social-links {
+            margin-bottom: 0.4rem!important;
+        }
+        .footer-heading {
+            font-size: 0.9rem!important;
+            margin-bottom: 1.4rem!important;
+        }
+        .contacts {
+            font-size: 0.7rem!important;
+        }
+        .footer-link{
+            font-size: 0.7rem!important;
+            white-space: nowrap!important;
+        }
+        .footer-nav {
+            gap: 0.5rem!important;
+        }
+}
+@media ( min-width: 1201px ){
+    .hero-img{
+        width: 100%!important;
+        margin-left: 0rem!important;
+    }
+    .dropdown{
+        display: none;
+    }
+    .container {
+        padding: 0rem!important;
+    }
+    .grid-3-cols {
+        grid-template-columns: repeat(2, 1fr)!important;
+        grid-template-columns: 4fr 1.5fr!important;
+        column-gap: 2rem!important;
+    }
+    .main-meal{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
