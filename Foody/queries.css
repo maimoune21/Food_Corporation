@@ -1,0 +1,4233 @@
+/* 150 px ( the smaller size for the website )*/
+/* 167px -> 200px */
+/**************************************************************************************************************/
+@media ( max-width:300px ){
+    /*nav */
+    .cont-nav{
+        padding: 0.2rem 0.3rem;
+        gap: 0;
+    }
+    nav{
+        font-size: 3px;
+        width: 100%;
+    }
+    .cont-nav a:nth-child(1) img {
+        height: 0.8rem;
+        width: 2.8rem;
+        border-radius: 0;
+        transition: all 0s;
+    }
+    .logo-div {
+        gap: 0rem;
+    }
+    .btn-group > .btn {
+        font-size: 0.6rem;
+        padding: 0px 0px 0 8px;
+    }
+    .input-search{
+        display: none;
+    }
+    .content-sign-up{
+        border-left: none;
+        padding-left: 0;
+    }
+    #btn-nav {
+        font-size: 0.5rem;
+    }
+    .icon-tabler-user-circle{
+        width: 1rem;
+        height: 1rem;
+    }
+    /*header */
+    .head-container {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .head-container-element {
+        width: 100%;
+        padding: 0 0.2rem;
+    }
+    .cont-head >h1{
+        font-size: 1.4rem;
+    }
+    .header-foody-logo{
+        width: 7rem;
+    }
+    p {
+        font-size: 15px;
+        line-height: 1.2;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        margin-bottom: 0;
+    }
+    .cont-head {
+        display: inline-block;
+    }
+    /*For bootstrap sign up*/
+    .modal-content {
+        border-radius: 8px;
+        width: auto;
+        margin-left: 0;
+    }
+    .modal-dialog{
+        margin: 0;
+    }
+    .modal-text h4 {
+        font-size: 1.2rem;
+    }
+    .modal-text p {
+        font-size: 0.8rem;
+    }
+    .email_input, #submit, .socials button{
+        width: 90%;
+        padding: 0 0.3;
+        height: auto;
+    }
+    #submit{
+        font-size: 1rem;
+        padding: 0.6rem 0.8rem;
+    }
+    .forget-password{
+        font-size: 1rem;
+    }
+    .socials-child{
+        margin: 0.6rem 1rem;
+        height: auto;
+    }
+    .socials-child strong {
+        font-size: 0.8rem;
+    }
+    .socials button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn-close{
+        background-size: 1rem;
+        height: 0.88rem;
+        width: 0.88rem;
+    }
+    .modal-text p{
+        width: 90%;
+    }
+    /*Main */
+    .heading-primary {
+        font-size: 1rem;
+    }
+    .section-main {
+        grid-template-columns: 1fr;
+        padding: 2.6rem 0.4rem 8rem;
+    }
+    .works{
+        grid-template-columns: 1fr;
+    }
+    .title-ex1 {
+        font-size: 0.8rem!important;
+        white-space: wrap;
+        text-align: center;
+        line-height: 1.2;
+    }
+    #title-ex2{
+        font-size: 0.8rem!important; 
+        white-space: wrap; 
+        text-align: center;
+        line-height: 1.2;
+    }
+    .work-1{
+        padding: 1rem 0.2rem;
+        align-items: start;
+        width: 100%;
+    }
+    .flex-text> p{
+        width: 100%;
+    }
+    .work-text-child {
+        grid-template-columns: 1fr;
+    }
+    .work-img {
+        width: 100%;
+    }
+    .work-text {
+        width: 100%;
+    }
+    .flex-text {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .title-date-ex1::before, .title-date-ex2::before {
+        width: 100px;
+        left: auto;
+    }
+    .work-img-child {
+        height: 10rem;
+    }
+    /*Gallery */
+    .section-Gallery {
+        padding: 6rem 0rem 9rem;
+    }
+    .heading-secondary {
+        font-size: 0.9rem;
+        padding: 1.7rem 0.5rem 0rem;
+    }
+    .gallary .gallary_image_box {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    .carousel-inner{
+        padding: 0 0.5rem;
+    }
+    .scrolling-div {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .scrolling-content-div {
+        padding: 0 2rem;
+    }
+    .carousel-indicators {
+        bottom: -4.5%;
+        margin-bottom: 0;
+        z-index: 0;
+    }
+    .scrolling-img-mbl{
+        width: 100%;
+        height: 90%;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+    .carousel-control-next {
+        width: auto;
+        right: 0rem!important;
+        top: 0%;
+    }
+    .carousel-control-prev {
+        width: auto;
+        left: 0rem!important;
+        top: 0%;
+    }
+
+    .gallary .gallary_image_box .gallary_image h3 {
+        font-size: 25px;
+        margin-bottom: 94px;
+    }
+    .gallary .gallary_image_box .gallary_image p {
+        width: 90%;
+        line-height: 12px!important;
+        font-size: 0.75rem;
+        margin-top: 10px;
+    }
+    .gallary .gallary_image_box .gallary_image .gallary_btn {
+        margin-top: 90px;
+        padding: 3px 6px;
+    }
+    /* Visit Us */
+    .card {
+        padding: 6rem 0.5rem 6rem;
+    }
+    .reviews-heading {
+        font-size: 1.4rem;
+        padding-right: 0;
+    }
+    .our-place {
+        grid-template-columns: 1fr;
+        padding: 2rem 0rem 1rem;
+        row-gap: 2rem;
+    }
+    .place-child {
+        height: 10rem;
+    }
+    .place-text {
+        text-align: center;
+        align-items: center;
+        padding: 0.5rem 0 0 0;
+        height: 55%;
+    }
+    .place-text h3 {
+        font-size: 16px;
+    }
+    .place-text p {
+        margin-bottom: -0.2rem;
+        font-size: 9px;
+    }
+    .place-text h6 {
+        font-size: 10px;
+    }
+    /*Testimonies */
+    .Testimonies-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 110rem;
+    }
+    .Testimonies-title {
+        left: 5%;
+        font-size: 1.5rem;
+    }
+    .Testimonies-content {
+        padding-bottom: 0;
+        margin-bottom: 1rem;
+    }
+    .Testimonies-content > img {
+        height: 5rem;
+        width: 5rem;
+        margin-bottom: 0;
+        border: 2px solid #000;
+    }
+    .first-testimonie> .Testimonies-content> h5 {
+        width: auto;
+    }
+    .Testimonies-content > h5 {
+        font-size: 0.8rem;
+        padding: 0 0.5rem 1rem;
+    }
+
+    .your-reviews-comment {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .your-comments {
+        padding: 14rem 0.5rem 6rem;    }
+    #comment{
+        width: 10rem;
+    }
+    #form-comments{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .comments-button {
+        outline: none;
+        border: none;
+        border-radius: 20px 0px 20px 20px;
+        padding: 0.8rem 2rem;
+        font-size: 1.3rem;
+    }
+    #comment::placeholder {
+        font-size: 0.9rem;
+    }
+    #review-start {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .vote-header {
+        font-size: 1rem;
+    }
+    .label-comments {
+        font-size: 0.85rem;
+    }
+    .team .team_box .profile {
+        width: 180px;
+        height: 180px;
+        margin: 0 10px;
+    }
+    .team h1 {
+        font-size: 35px;
+    }
+    .team .team_box .profile img {
+        width: 150px;
+        height: 150px;
+    }
+    .team .team_box .profile:hover .info {
+        top: 32%;
+    }
+    .team .team_box .profile .info {
+        top: 15%;
+    }
+    .team .team_box .profile .info .name {
+        margin-bottom: 3px;
+        font-size: 1.15rem;
+    }
+    .team .team_box .profile .info .bio {
+        width: 78%;
+        padding: 0;
+        margin: 0 auto 0px auto;
+        font-size: 1rem;
+    }
+    .team .team_box .profile:hover {
+        height: 230px;
+    }
+    .team .team_box {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        row-gap: 8.5rem;
+    }
+    /*Reservation */
+    .section-reservation {
+        padding: 6rem 0.2rem 7rem;
+    }
+    .reservation{
+        width: auto;
+    }
+    .container-reservation > h2 {
+        font-size: 1.44rem;
+        margin-bottom: 0;
+    }
+    .container-reservation > button {
+        margin-top: 1.8rem;
+        border-radius: 0px;
+        padding: 0.5rem 0.5rem 0.3rem;
+        font-size: 0.7rem;
+    }
+    .container-reservation {
+        top: 13%;
+        padding: 4rem 0;
+    }
+    .offcanvas-body {
+        margin: 3rem 0.33rem;
+    }
+    .offcanvas.offcanvas-end {
+        width: 100%;
+    }
+    .form-childs {
+        width: 90%;
+    }
+    input, select{
+        font-size: 0.77rem;
+    }
+    .offcanvas-title{
+        font-size: 1.7rem;
+    }
+    .offcanvas-content{
+        padding-top: 6rem;
+    }
+    /*Footer */
+    .contact {
+        box-shadow: inset 0 8px 20px -15px hsla(0, 0%, 0%, 0.504);
+        padding: 4rem 0.5rem 3.5rem 0.5rem;
+        background-color: #989898;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+    .section-footer-child {
+        padding: 1.2rem 0.5rem;
+    }
+    .section-footer-child p {
+        font-size: 0.6rem;
+    }
+    .col-child a {
+        font-size: 0.7rem;
+    }
+    .email-link{
+        font-size: 0.58rem!important;
+    }
+    .col{
+        flex-direction: column;
+    }
+    /*Cards */
+    .explore-food {
+        display: grid;
+        grid-template-columns: 1fr!important;
+        padding: 6rem 0.5rem;
+    }
+    .content-left {
+        padding: 0rem 0.5rem 0rem 0.5rem;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        row-gap: 4.5rem;
+    }
+    .content-right {
+        grid-row: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 0 6rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .content-right >h1 {
+        font-size: 1.8rem;
+    }
+    .dish-img {
+        width: 10rem;
+        user-select: none;
+        animation: rotate 10s linear infinite;
+    }
+    .card-img {
+        width: 4.8rem;
+        left: 32%;
+    }
+}
+@media ( 230px <= width <= 250px ){
+    .card-img {
+        width: 5.2rem;
+        left: 32%;
+    }
+}
+@media ( 260px <= width <= 300px ){
+    .card-img {
+        width: 5.2rem;
+        left: 34%;
+    }
+    #comment {
+        width: 14rem;
+    }
+}
+@media ( max-width:200px){
+    .flex-text {
+        flex-direction: column;
+        column-gap: 1rem;
+    }
+    .cont-head >h1 {
+        font-size: 1.1rem;
+    }
+    p{
+        font-size: 12px;
+    }
+    .cont-nav a:nth-child(1) img {
+        height: 0.9rem;
+        width: 2rem;
+    }
+    .btn-group > .btn {
+        padding: 0px 0px 0 8px;
+    }
+    #btn-nav{
+        gap: 0.1rem;
+    }
+    .header-foody-logo{
+        width: 4rem;
+    }
+    /*For bootstrap sign up*/
+    .modal-content {
+        border-radius: 8px;
+        width: auto;
+        margin-left: 0;
+    }
+    .modal-dialog{
+        margin: 0;
+    }
+    .modal-text h4 {
+        font-size: 0.8rem;
+    }
+    .modal-text p {
+        font-size: 0.77rem;
+    }
+    .email_input, #submit, .socials button{
+        width: 90%;
+        padding: 0 0.3;
+        height: auto;
+    }
+    #submit{
+        font-size: 0.8rem;
+    }
+    .forget-password{
+        font-size: 0.8rem;
+    }
+    .socials-child{
+        margin: 0.3rem 0.8rem;
+        height: auto;
+    }
+    .socials-child strong {
+        font-size: 0.8rem;
+    }
+    .socials button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn-close{
+        background-size: 1rem;
+        height: 0.7rem;
+        width: 0.7rem;
+    }
+    .modal-text p{
+        width: 90%;
+    }
+    input, select{
+        font-size: 0.6rem;
+    }
+    .offcanvas-title{
+        font-size: 1.2rem;
+    }
+    .reservation-button{
+        font-size: 0.7rem;
+    }
+    .offcanvas-content{
+        padding-top: 7rem;
+    }
+    /*Cards */
+    .explore-food {
+        display: grid;
+        grid-template-columns: 1fr!important;
+        padding: 6rem 0.5rem;
+    }
+    .content-left {
+        padding: 0rem 0.5rem 0rem 0.5rem;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        row-gap: 4.5rem;
+    }
+    .content-right {
+        grid-row: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 6rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .content-right >h1 {
+        font-size: 1rem;
+    }
+    .dish-img {
+        width: 8rem;
+        user-select: none;
+        animation: rotate 10s linear infinite;
+    }
+    .card-img {
+        width: 4.8rem;
+        left: 25%;
+    }
+    .scrolling-img-mbl{
+        width: 100%;
+        height: 90%;
+    }
+    .carousel-control-next {
+        width: auto;
+        right: 0rem!important;
+        top: -20%;
+    }
+    .carousel-control-prev {
+        width: auto;
+        left: 0rem!important;
+        top: -20%;
+    }
+
+    .your-reviews-comment {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .your-comments {
+        padding: 10rem 0.5rem 6rem;
+    }
+    .Testimonies-content > img {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    .icon-tabler-star, .icon-tabler-star-half-filled{
+        height: 1rem;
+        width: 1rem;
+    }
+    #comment{
+        width: 10rem;
+    }
+    #form-comments{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .comments-button {
+        outline: none;
+        border: none;
+        border-radius: 20px 0px 20px 20px;
+        padding: 0.8rem 2rem;
+        font-size: 1.3rem;
+    }
+    #comment::placeholder {
+        font-size: 0.9rem;
+    }
+    #review-start {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .vote-header {
+        font-size: 1rem;
+        margin-bottom: 1.3rem;
+    }
+    .label-comments {
+        font-size: 0.85rem;
+    }
+    .Testimonies-content > figcaption {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .copyright-content {
+        margin-bottom: 1rem;
+    }
+    .team .team_box .profile {
+        width: 150px;
+        height: 150px;
+        margin: 0 10px;
+    }
+    .team h1 {
+        font-size: 28px;
+    }
+    .team .team_box .profile img {
+        width: 130px;
+        height: 130px;
+    }
+    .team .team_box .profile:hover .info {
+        top: 32%;
+    }
+    .team .team_box .profile .info {
+        top: 11%;
+    }
+    .team .team_box .profile .info .name {
+        margin-bottom: 3px;
+        font-size: 0.9rem;
+    }
+    .team .team_box .profile .info .bio {
+        width: 78%;
+        padding: 0;
+        margin: 0 auto 0px auto;
+        font-size: 0.8rem;
+    }
+    .team .team_box .profile:hover {
+        height: 200px;
+    }
+    .team .team_box {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        row-gap: 8.5rem;
+    }
+}
+/**************************************************************************************************************/
+@media ( 300px <= width <= 400px ){
+    /*nav */
+    .cont-nav{
+        padding: 0.3rem 0.5rem;
+        gap: 3.3rem;
+    }
+    nav{
+        font-size: 5px;
+        width: 100%;
+    }
+    .cont-nav a:nth-child(1) img {
+        height: 1.1rem;
+        width: 3.3rem;
+        border-radius: 0;
+        transition: all 0s;
+    }
+    .logo-div {
+        gap: 0rem;
+    }
+    .btn-group > .btn {
+        font-size: 0.7rem;
+        padding: 4px 8px 0 8px;
+    }
+    .input-search{
+        display: none;
+    }
+    .content-sign-up{
+        border-left: none;
+        padding-left: 0;
+    }
+    #btn-nav {
+        font-size: 0.8rem;
+    }
+    .icon-tabler-user-circle{
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    /*header */
+    .head-container {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    header, video{
+        height: 94vh;
+    }
+    .head-container-element {
+        width: 100%;
+        padding: 0 1.7rem;
+    }
+    .cont-head >h1{
+        font-size: 1.4rem;
+    }
+    .header-foody-logo{
+        width: 6rem;
+    }
+    p {
+        font-size: 15px;
+        line-height: 1.2;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        margin-bottom: 0;
+    }
+    /*For bootstrap sign up*/
+    .modal-content {
+        border-radius: 8px;
+        width: auto;
+        margin-left: 0;
+    }
+    .modal-dialog{
+        margin: 0;
+    }
+    .modal-text h4 {
+        font-size: 1.4rem;
+    }
+    .modal-text p {
+        font-size: 1rem;
+        padding: 0 0.2rem;
+    }
+    .email_input, #submit, .socials button{
+        width: 90%;
+        padding: 0 0.3;
+        height: auto;
+    }
+    #submit{
+        font-size: 1rem;
+        padding: 0.8rem 1rem;
+    }
+    .forget-password{
+        font-size: 1rem;
+    }
+    .socials-child{
+        margin: 0.66rem 1rem;
+        height: auto;
+    }
+    .socials-child strong {
+        font-size: 1rem;
+    }
+    .socials button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn-close{
+        background-size: 1rem;
+        height: 0.9rem;
+        width: 0.9rem;
+    }
+    .modal-text p{
+        width: 90%;
+    }
+    /*Main */
+    .heading-primary {
+        font-size: 1.6rem;
+    }
+    .section-main {
+        grid-template-columns: 1fr;
+        padding: 2.6rem 0.5rem 8rem;
+    }
+    .works{
+        grid-template-columns: 1fr;
+    }
+    .title-ex1 {
+        font-size: 0.8rem!important;      
+    }
+    #title-ex2{
+        font-size: 0.7rem!important; 
+    }
+    .work-1{
+        padding: 1rem 0.5rem;
+        align-items: start;
+        width: 100%;
+    }
+    .flex-text> p{
+        width: 100%;
+    }
+    .work-text-child {
+        grid-template-columns: 1fr;
+    }
+    .work-img {
+        width: 100%;
+    }
+    .work-text {
+        width: 100%;
+    }
+    .flex-text {
+        flex-direction: row;
+        column-gap: 3rem;
+    }
+    .title-date-ex1::before, .title-date-ex2::before {
+        width: 100px;
+        left: auto;
+    }
+    .work-img-child {
+        height: 12rem;
+    }
+    /*Gallery */
+    .section-Gallery {
+        padding: 6rem 0rem 9rem;
+    }
+    .heading-secondary {
+        font-size: 1.1rem;
+        padding: 1.7rem 2rem 0rem;
+    }
+    .gallary .gallary_image_box {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    .carousel-inner{
+        padding: 0 1rem;
+    }
+    .scrolling-div {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .scrolling-content-div {
+        padding: 0 2rem;
+    }
+    .carousel-indicators {
+        bottom: -4.5%;
+        margin-bottom: 0;
+        z-index: 0;
+    }
+    .scrolling-img-mbl{
+        width: 85%;
+        height: 90%;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .carousel-control-next {
+        width: auto;
+        right: 0.5rem!important;
+        top: 0%;
+    }
+    .carousel-control-prev {
+        width: auto;
+        left: 0.5rem!important;
+        top: 0%;
+    }
+    .scrolling-text >p {
+        width: 90%;
+    }
+
+    .gallary .gallary_image_box .gallary_image p {
+        width: 90%;
+        line-height: 18px!important;
+        margin-top: 10px;
+    }
+    .gallary .gallary_image_box .gallary_image .gallary_btn {
+        margin-top: 134px;
+        padding: 5px 14px;
+    }
+    /* Visit Us */
+    .card {
+        padding: 6rem 1rem 6rem;
+    }
+    .reviews-heading {
+        font-size: 1.4rem;
+        padding-right: 0;
+    }
+    .our-place {
+        grid-template-columns: 1fr;
+        padding: 2rem 0rem 1rem;
+        row-gap: 2rem;
+    }
+    .place-child {
+        height: 10rem;
+    }
+    .place-text {
+        text-align: start;
+        padding: 0.3rem 0 0 0.5rem;
+        height: 55%;
+    }
+    .place-text h3 {
+        font-size: 16px;
+    }
+    .place-text p {
+        margin-bottom: -0.2rem;
+        font-size: 9px;
+    }
+    .place-text h6 {
+        font-size: 10px;
+    }
+    /*Testimonies */
+    .Testimonies-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 120rem;
+    }
+    .Testimonies-title {
+        left: 7%;
+    }
+    .Testimonies-content {
+        padding-bottom: 0;
+        margin-bottom: 1rem;
+    }
+    .Testimonies-content > img {
+        height: 5rem;
+        width: 5rem;
+        margin-bottom: 0;
+        border: 2px solid #000;
+    }
+    .first-testimonie> .Testimonies-content> h5 {
+        width: auto;
+    }
+    .Testimonies-content > h5 {
+        font-size: 0.8rem;
+        padding: 0 0.5rem 1rem;
+    }
+    .your-reviews-comment {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .your-comments {
+        padding: 6rem 0.5rem 6rem;    }
+    #comment{
+        width: 17rem;
+    }
+    #form-comments{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    .comments-button {
+        outline: none;
+        border: none;
+        border-radius: 20px 0px 20px 20px;
+        padding: 0.8rem 2rem;
+        font-size: 1.3rem;
+    }
+    #comment::placeholder {
+        font-size: 0.9rem;
+    }
+    #review-start {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .vote-header {
+        font-size: 1rem;
+    }
+    .label-comments {
+        font-size: 0.85rem;
+    }
+    .team .team_box .profile {
+        width: 180px;
+        height: 180px;
+        margin: 0 10px;
+    }
+    .team .team_box .profile img {
+        width: 150px;
+        height: 150px;
+    }
+    .team .team_box .profile:hover .info {
+        top: 32%;
+    }
+    .team .team_box .profile .info {
+        top: 15%;
+    }
+    .team .team_box .profile .info .name {
+        margin-bottom: 3px;
+        font-size: 1.15rem;
+    }
+    .team .team_box .profile .info .bio {
+        width: 78%;
+        padding: 0;
+        margin: 0 auto 0px auto;
+        font-size: 1rem;
+    }
+    .team .team_box .profile:hover {
+        height: 230px;
+    }
+    .team .team_box {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        row-gap: 8.5rem;
+    }
+    /*Reservation */
+    .section-reservation {
+        padding: 6rem 2rem 7rem;
+    }
+    .reservation{
+        width: auto;
+    }
+    .container-reservation > h2 {
+        font-size: 1.66rem;
+        margin-bottom: 0;
+    }
+    .container-reservation > button {
+        margin-top: 1.8rem;
+        border-radius: 0px;
+        padding: 0.5rem 0.8rem 0.5rem;
+        font-size: 0.6rem;
+    }
+    .container-reservation {
+        top: 13%;
+        padding: 4rem 0;
+    }
+    .offcanvas-body {
+        margin: 3rem 0.33rem;
+    }
+    .offcanvas.offcanvas-end {
+        width: 100%;
+    }
+    .form-childs {
+        width: 90%;
+    }
+    .offcanvas-content{
+        padding-top: 9rem;
+    }
+    /*Footer */
+    .contact {
+        box-shadow: inset 0 8px 20px -15px hsla(0, 0%, 0%, 0.504);
+        padding: 4rem 0.5rem 3.5rem 0.5rem;
+        background-color: #989898;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+    .section-footer-child {
+        padding: 1.2rem 0.5rem;
+    }
+    .section-footer-child p {
+        font-size: 0.6rem;
+    }
+    .col-child a {
+        font-size: 0.8rem;
+        white-space: wrap;
+    }
+    .col{
+        flex-direction: column;
+    }
+    /*Cards */
+    .explore-food {
+        display: grid;
+        grid-template-columns: 1fr!important;
+        padding: 6rem 0.5rem;
+    }
+    .content-left {
+        padding: 0rem 0.5rem 0rem 0.5rem;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        row-gap: 4.5rem;
+    }
+    .content-right {
+        grid-row: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 6rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .content-right >h1 {
+        font-size: 1.8rem;
+    }
+    .dish-img {
+        width: 12rem;
+        user-select: none;
+        animation: rotate 10s linear infinite;
+    }
+    .card-img {
+        width: 5.5rem;
+        left: 35%;
+    }
+}
+@media ( 350px <= width <= 400px ){
+    .cont-nav {
+        padding: 0.3rem 1rem!important;
+        gap: 3.3rem;
+    }
+    .title-ex1 {
+        font-size: 1rem!important;
+    }
+    #title-ex2 {
+        font-size: 0.9rem!important;
+    }
+    .place-text p {
+        font-size: 11px!important;
+    }
+    .place-text h3 {
+        font-size: 17px!important;
+    }
+    .place-text h6 {
+        font-size: 11px!important;
+    }
+    .reviews-heading {
+        font-size: 1.8rem!important;
+    }
+    .place-child {
+        height: 11.5rem!important;
+    }
+    .Testimonies-content > h5 {
+        font-size: 1.01rem!important;
+    }
+    .container-reservation > h2 {
+        font-size: 1.8rem!important;
+    }
+    .col-child a {
+        font-size: 1rem;
+    }
+    .section-footer-child p {
+        font-size: 0.8rem;
+    }
+    .header-foody-logo{
+        width: 6.5rem;
+    }
+    .cont-head {
+        display: flex;
+        align-items: center;
+    }
+    header, video{
+        height: 92vh;
+    }
+    .socials button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cont-h1 {
+        padding: 0 0.5rem;
+        background-color: #0ca678;
+    }
+    .card-img {
+        width: 5.5rem;
+        left: 38%;
+    }
+    .gallary .gallary_image_box {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        height: 28rem;
+    }
+    .carousel-inner{
+        padding: 0 1rem;
+    }
+    .gallary .gallary_image_box .gallary_image p {
+        padding: 0!important;
+        font-size: 0.66rem!important;
+        line-height: 12px!important;
+        width: 45%!important;
+        margin-top: 7px!important;
+    }
+    .gallary .gallary_image_box .gallary_image h3 {
+        font-size: 22px;
+        margin-bottom: 82px;
+    }
+    .gallary .gallary_image_box .gallary_image .gallary_btn {
+        margin-top: 83px;
+        padding: 2px 8px;
+        font-size: 0.7rem;
+    }
+}
+/**************************************************************************************************************/
+@media ( 400px <= width <= 550px ){
+    /*nav */
+    .cont-nav{
+        padding: 0.33rem 1rem;
+        gap: 3.3rem;
+    }
+    nav{
+        font-size: 5px;
+        width: 100%;
+    }
+    .cont-nav a:nth-child(1) img {
+        height: 1.2rem;
+        width: 3.5rem;
+        border-radius: 0;
+        transition: all 0s;
+    }
+    .logo-div {
+        gap: 0.5rem;
+    }
+    .btn-group > .btn {
+        font-size: 0.88rem;
+        padding: 0px 0px 0 8px;
+    }
+    .input-search{
+        display: none;
+    }
+    .content-sign-up{
+        border-left: none;
+        padding-left: 0;
+    }
+    #btn-nav {
+        font-size: 0.8rem;
+    }
+    .icon-tabler-user-circle{
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    /*header */
+    .head-container {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .head-container-element {
+        width: 100%;
+        padding: 0 2.5rem;
+    }
+    .cont-head >h1{
+        font-size: 1.8rem;
+    }
+    .header-foody-logo{
+        width: 8rem;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.2;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        margin-bottom: 0;
+    }
+    .cont-head{
+        display: flex;
+        align-items: center;
+    }
+    /*For bootstrap sign up*/
+    .modal-content {
+        border-radius: 8px;
+        width: auto;
+        margin-left: 0;
+    }
+    .modal-dialog{
+        margin: 0 1rem;
+    }
+    .modal-text h4 {
+        font-size: 1.6rem;
+    }
+    .modal-text p {
+        font-size: 1.1rem;
+        padding: 0 0.2rem;
+    }
+    .email_input, #submit, .socials button{
+        width: 80%;
+        padding: 0 0.3;
+        height: auto;
+    }
+    #submit{
+        font-size: 1rem;
+        padding: 0.8rem 1rem;
+    }
+    .forget-password{
+        font-size: 1rem;
+    }
+    .socials-child{
+        margin: 0.66rem 1rem;
+        height: auto;
+    }
+    .socials-child strong {
+        font-size: 1rem;
+    }
+    .socials button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn-close{
+        background-size: 1rem;
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+    .modal-text p{
+        width: 80%;
+    }
+    /*Main */
+    .heading-primary {
+        font-size: 1.6rem;
+    }
+    .cont-h1 {
+        padding: 0 1rem;
+        background-color: #0ca678;
+    }
+    .section-main {
+        grid-template-columns: 1fr;
+        padding: 2.6rem 1rem 8rem;
+    }
+    .works{
+        grid-template-columns: 1fr;
+    }
+    .title-ex1 {
+        font-size: 1rem!important;      
+    }
+    #title-ex2 {
+        font-size: 0.9rem!important;
+    }
+    .flex-text> p {
+        font-size: 1.2rem!important;
+    }
+    .work-1{
+        padding: 1rem 1rem;
+        align-items: start;
+        width: 100%;
+    }
+    .flex-text> p{
+        width: 100%;
+    }
+    .work-text-child {
+        grid-template-columns: 1fr;
+    }
+    .work-img {
+        width: 100%;
+    }
+    .work-text {
+        width: 100%;
+    }
+    .flex-text {
+        flex-direction: row;
+        column-gap: 3rem;
+    }
+    .title-date-ex1::before, .title-date-ex2::before {
+        width: 120px;
+        left: auto;
+    }
+    .work-img-child {
+        height: 16rem;
+    }
+    /*Gallery */
+    .section-Gallery {
+        padding: 6rem 0rem 9rem;
+    }
+    .carousel-control-next {
+        width: auto;
+        right: 0rem!important;
+        top: 0%;
+    }
+    .carousel-control-prev {
+        width: auto;
+        left: 0rem!important;
+        top: 0%;
+    }
+    .scrolling-text >p {
+        width: 90%;
+    }
+    .heading-secondary {
+        font-size: 1.4rem;
+        padding: 1.7rem 2rem 0rem;
+    }
+    .scrolling-div {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .carousel-inner {
+        padding: 0 2rem;
+    }
+    .gallary .gallary_image_box {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        height: 28rem;
+    }
+    .scrolling-content-div {
+        padding: 0 3.5rem;
+    }
+    .carousel-indicators {
+        bottom: -4.5%;
+        margin-bottom: 0;
+        z-index: 0;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+    .scrolling-img-mbl{
+        width: 100%;
+        height: 28rem;
+    }
+
+    .gallary .gallary_image_box .gallary_image p {
+        padding: 0;
+        font-size: 0.7rem;
+        line-height: 14px;
+        width: 48%;
+        margin-top: 7px;
+    }
+    .gallary .gallary_image_box .gallary_image h3 {
+        font-size: 22px;
+        margin-bottom: 82px;
+    }
+    .gallary .gallary_image_box .gallary_image .gallary_btn {
+        margin-top: 83px;
+        padding: 2px 8px;
+        font-size: 0.7rem;
+    }
+    /* Visit Us */
+    .card {
+        padding: 6rem 1rem 6rem;
+    }
+    .reviews-heading {
+        font-size: 2.4rem!important;
+        padding-right: 0;
+    }
+    .our-place {
+        grid-template-columns: 1fr;
+        padding: 2rem 0rem 1rem;
+        row-gap: 2rem;
+    }
+    .place-child {
+        height: 14rem!important;
+    }
+    .place-text {
+        text-align: start;
+        padding: 0.6rem 0 0 0.5rem;
+        height: 55%;
+    }
+    .place-text h3 {
+        font-size: 23px!important;
+    }
+    .place-text p {
+        font-size: 15px!important;
+    }
+    .place-text h6 {
+        font-size: 
+        14px!important;
+    }
+    /*Testimonies */
+    .Testimonies-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 140rem;
+    }
+    .Testimonies-title {
+        left: 7%;
+    }
+    .Testimonies-content {
+        padding-bottom: 0;
+        margin-bottom: 1rem;
+    }
+    .Testimonies-content > img {
+        height: 5rem;
+        width: 5rem;
+        margin-bottom: 0;
+        border: 2px solid #000;
+    }
+    .first-testimonie> .Testimonies-content> h5 {
+        width: auto;
+    }
+    .Testimonies-content > h5 {
+        font-size: 1.2rem;
+        padding: 0 2rem 1rem;
+    }
+
+    .your-reviews-comment {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .your-comments {
+        padding: 10rem 0.5rem 6rem;
+    }
+    #comment{
+        width: 24em;
+    }
+    #form-comments{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .comments-button {
+        outline: none;
+        border: none;
+        border-radius: 20px 0px 20px 20px;
+        padding: 0.8rem 2.5rem;
+        font-size: 1.3rem;
+    }
+    #comment::placeholder {
+        font-size: 1rem;
+    }
+    #review-start {
+        width: 2rem;
+        height: 2rem;
+    }
+    .vote-header {
+        font-size: 1.5rem;
+    }
+    .label-comments {
+        font-size: 1rem;
+    }
+    .team .team_box .profile {
+        width: 180px;
+        height: 180px;
+        margin: 0 10px;
+    }
+    .team .team_box .profile img {
+        width: 150px;
+        height: 150px;
+    }
+    .team .team_box .profile:hover .info {
+        top: 32%;
+    }
+    .team .team_box .profile .info {
+        top: 15%;
+    }
+    .team .team_box .profile .info .name {
+        margin-bottom: 3px;
+        font-size: 1.2rem;
+    }
+    .team .team_box .profile .info .bio {
+        width: 78%;
+        padding: 0;
+        margin: 0 auto 0px auto;
+        font-size: 1rem;
+    }
+    .team .team_box .profile:hover {
+        height: 230px;
+    }
+    .team .team_box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        row-gap: 8.5rem;
+    }
+    /*Reservation */
+    .section-reservation {
+        padding: 6rem 2rem 7rem;
+    }
+    .reservation{
+        width: auto;
+    }
+    .container-reservation > h2 {
+        font-size: 2.3rem;
+        margin-bottom: 0;
+        
+    }
+    .container-reservation > button {
+        margin-top: 1.8rem;
+        border-radius: 0px;
+        padding: 0.5rem 0.8rem 0.5rem;
+        font-size: 0.6rem;
+    }
+    .container-reservation {
+        top: 13%;
+        padding: 4rem 0;
+    }
+    .offcanvas-body{
+        margin: 3rem 0.4rem;
+    }
+    .offcanvas.offcanvas-end {
+        width: 100%;
+    }
+    .offcanvas-content{
+        padding-top: 8rem;
+    }
+    /*Footer */
+    .contact {
+        box-shadow: inset 0 8px 20px -15px hsla(0, 0%, 0%, 0.504);
+        padding: 4rem 0.5rem 3.5rem 0.5rem;
+        background-color: #989898;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .section-footer-child {
+        padding: 1.2rem 2rem;
+    }
+    .section-footer-child p {
+        font-size: 0.8rem;
+    }
+    .col-child a {
+        font-size: 0.8rem;
+        white-space: wrap;
+    }
+    .col{
+        flex-direction: column;
+    }
+    .email-link{
+        font-size: 0.7rem!important;
+    }
+    header, video{
+        height: 92vh;
+    }
+    /*Cards */
+    .explore-food {
+        display: grid;
+        grid-template-columns: 1fr!important;
+        padding: 6rem 0.5rem;
+    }
+    .content-left {
+        padding: 0rem 0.5rem 0rem 0.5rem;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        row-gap: 4.5rem;
+    }
+    .content-right {
+        grid-row: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 6rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .content-right >h1 {
+        font-size: 2.5rem;
+    }
+    .dish-img {
+        width: 16rem;
+        user-select: none;
+        animation: rotate 10s linear infinite;
+    }
+    .card-img {
+        width: 5rem;
+        left: 28%;
+        bottom: 88%;
+    }
+}
+@media ( 450px <= width <= 550px ){
+    .cont-head >h1 {
+        font-size: 2.1rem;
+    }
+    p {
+        font-size: 17px;
+    }
+    .head-container-element {
+        padding: 0 2.1rem!important;
+    }
+    .title-ex1 {
+        font-size: 1.1rem!important;
+    }
+    #title-ex2 {
+        font-size: 1rem!important;
+    }
+    .flex-text> p {
+        width: 100%;
+        font-size: 1.2rem!important;
+    }
+    .cont-head{
+        display: flex;
+        align-items: center;
+    }
+    header, video{
+        height: 92vh;
+    }
+    .modal-text p {
+        font-size: 1.1rem;
+        padding: 0 0.5rem;
+    }
+    .modal-text p{
+        width: 80%;
+    }
+    .card-img {
+        width: 5.5rem;
+        left: 28%;
+        bottom: 88%;
+    }
+    .scrolling-img-mbl{
+        width: 100%;
+        height: 33rem;
+    }
+    #comment {
+        width: 27rem;
+    }
+}
+@media ( 500px <= width <= 550px ){
+    .scrolling-content-div {
+        padding: 0 5rem;
+    }
+    .section-main {
+        grid-template-columns: 1fr;
+        padding: 2.6rem 2rem 8rem;
+    }
+    .works{
+        grid-template-columns: 1fr!important;
+    }
+    .cont-nav {
+        padding: 0.5rem 1.5rem;
+        gap: 3.3rem;
+    }
+    .col-child a {
+        font-size: 1rem;
+        white-space: wrap;
+    }
+    .email-link {
+        font-size: 0.9rem!important;
+    }
+    .card {
+        padding: 6rem 2rem 6rem;
+    }
+    .Testimonies-container{
+        height: 190rem;
+    }
+    .Testimonies-content {
+        margin-bottom: 6rem;
+    }
+    header, video{
+        height: 92vh;
+    }
+    .modal-text p {
+        font-size: 1.1rem;
+        padding: 0 1.6rem;
+    }
+    .email_input, #submit, .socials button {
+        width: 80%;
+        padding: 0 0.3;
+        height: auto;
+    }
+    .modal-text p{
+        width: 80%;
+    }
+    .offcanvas-body {
+        margin: 3rem 0.4rem;
+    }
+    .cont-h1 {
+        padding: 0 2rem;
+        background-color: #0ca678;
+    }
+    .card-img {
+        width: 5.5rem;
+        left: 31%;
+        bottom: 88%;
+    }
+    #comment {
+        width: 30rem;
+    }
+}
+/**************************************************************************************************************/
+@media ( 550px <= width <= 700px ){
+    /*nav */
+    .cont-nav{
+        padding: 0.6rem 1.5rem;
+        gap: 3.3rem;
+    }
+    nav{
+        font-size: 5px;
+        width: 100%;
+    }
+    .cont-nav a:nth-child(1) img {
+        height: 1.5rem;
+        width: 5rem;
+        border-radius: 0;
+        transition: all 0s;
+    }
+    .logo-div {
+        gap: 0.5rem;
+    }
+    .btn-group > .btn {
+        font-size: 1rem;
+        padding: 0px 0px 0 8px;
+    }
+    .input-search{
+        display: none;
+    }
+    .content-sign-up{
+        border-left: none;
+        padding-left: 0;
+    }
+    #btn-nav {
+        font-size: 1rem;
+    }
+    .icon-tabler-user-circle{
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    /*header */
+    .head-container {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    header, video{
+        height: 92vh;
+    }
+    .head-container-element {
+        width: 100%;
+        padding: 0 5rem;
+    }
+    .cont-head >h1{
+        font-size: 2.2rem;
+    }
+    .header-foody-logo{
+        width: 9rem;
+    }
+    p {
+        font-size: 17px;
+        line-height: 1.2;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+    .btn-see-more {
+        font-size: 19px;
+    }
+    .cont-head{
+        display: flex;
+        align-items: center;
+        padding: 0 0;
+    }
+   /*For bootstrap sign up*/
+    .modal-content {
+        border-radius: 8px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .modal-text h4 {
+        font-size: 1.7rem;
+    }
+    .modal-text p {
+        font-size: 1.2rem;
+        padding: 0 1.5rem;
+    }
+    .email_input, #submit, .socials button{
+        width: 80%;
+        font-size: 1.2rem;
+    }
+    .modal-text p{
+        width: 70%;
+    }
+    .socials-child strong{
+        font-size: 1.2rem;
+    }
+    .forget-password{
+        font-size: 1.1rem;
+    }
+    .btn-close{
+        background-size: 1rem;
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+    /*Main */
+    main{
+        padding-top: 8rem;
+    }
+    .heading-primary {
+        font-size: 2.3rem;
+    }
+    .cont-h1 {
+        padding: 0 2rem;
+        background-color: #0ca678;
+    }
+    .section-main {
+        grid-template-columns: 1fr;
+        padding: 2.6rem 2.5rem 8rem;
+    }
+    .works{
+        grid-template-columns: 1fr;
+    }
+    .title-ex1 {
+        font-size: 1.2rem!important;      
+    }
+    #title-ex2 {
+        font-size: 1.1rem!important;
+    }
+    .flex-text> p {
+        font-size: 1.3rem!important;
+    }
+    .work-1{
+        padding: 1rem 1rem;
+        align-items: start;
+        width: 100%;
+    }
+    .flex-text> p {
+        width: 100%;
+        padding: 0 2rem;
+    }
+    .work-text-child {
+        grid-template-columns: 1fr;
+    }
+    .work-img {
+        width: 100%;
+    }
+    .work-text {
+        width: 100%;
+    }
+    .flex-text {
+        flex-direction: row;
+        column-gap: 3rem;
+    }
+    .title-date-ex1::before, .title-date-ex2::before {
+        width: 150px;
+        left: auto;
+    }
+    .work-img-child {
+        height: 18rem;
+    }
+    /*Gallery */
+    .section-Gallery {
+        padding: 6rem 0rem 9rem;
+    }
+    .heading-secondary {
+        font-size: 1.5rem;
+        padding: 1.7rem 2rem 0rem;
+    }
+    .scrolling-text >h5 {
+        font-size: 1.4rem;
+    }
+    .scrolling-text >p {
+        font-size: 1.2rem;
+        padding: 0 0rem!important;
+        width: 80%;
+    }
+    .scrolling-content-div {
+        padding: 0 0.5rem;
+    }
+    .scrolling-div {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0;
+    }
+    .carousel-indicators {
+        bottom: -10%;
+        margin-bottom: 0;
+        z-index: 0;
+    }
+    .gallary .gallary_image_box {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .carousel-inner {
+        padding: 0 4rem;
+    }
+    .scrolling-img-mbl{
+        width: 80%;
+        height: 35rem;
+    }
+    .carousel-control-next {
+        width: auto;
+        right: 0rem!important;
+        top: 0%;
+    }
+    .carousel-control-prev {
+        width: auto;
+        left: 0rem!important;
+        top: 0%;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 3rem!important;
+        height: 3rem!important;
+    }
+
+    .gallary .gallary_image_box .gallary_image p {
+        padding: 0;
+        font-size: 0.8rem;
+        line-height: 18px;
+        width: 48%;
+        margin-top: 7px;
+    }
+    .gallary .gallary_image_box .gallary_image h3 {
+        font-size: 29px;
+        margin-bottom: 100px;
+    }
+    .gallary .gallary_image_box .gallary_image .gallary_btn {
+        margin-top: 102px;
+        padding: 3px 8px;
+        font-size: 0.8rem;
+    }
+    /* Visit Us */
+    .card {
+        padding: 6rem 1rem 6rem;
+    }
+    .reviews-heading {
+        font-size: 2.8rem!important;
+        padding-right: 0;
+    }
+    .our-place {
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem 0rem 1rem;
+        row-gap: 1.5rem;
+        column-gap: 1.3rem;
+    }
+    .place-child {
+        height: 10rem!important;
+    }
+    .place-text {
+        text-align: start;
+        padding: 0.6rem 0 0 0.5rem;
+        height: 60%;
+    }
+    .place-text h3 {
+        font-size: 17px!important;
+    }
+    .place-text p {
+        font-size: 10px!important;
+    }
+    .place-text h6 {
+        font-size: 11px!important;
+    }
+    /*Testimonies */
+    .Testimonies-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 190rem;
+    }
+    .Testimonies-content {
+        margin-bottom: 6rem;
+    }
+    .Testimonies-title {
+        left: 7%;
+        font-size: 2.9rem;
+    }
+    .Testimonies-content {
+        margin-bottom: 6rem;
+    }
+    .Testimonies-content > img {
+        height: 7rem;
+        width: 7rem;
+        margin-bottom: 0;
+        border: 2px solid #000;
+    }
+    .first-testimonie> .Testimonies-content> h5 {
+        width: auto;
+    }
+    .Testimonies-content > h5 {
+        font-size: 1.2rem;
+        padding: 0 3rem 1rem;
+    }
+
+    .your-reviews-comment {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    #comment {
+        width: 33rem;
+    }
+    .your-comments {
+        padding: 10rem 1rem 2rem;
+    }
+    .team .team_box .profile {
+        width: 220px;
+        height: 220px;
+        margin: 0 10px;
+    }
+    .team .team_box .profile img {
+        width: 180px;
+        height: 180px;
+    }
+    .team .team_box .profile:hover .info {
+        top: 32%;
+    }
+    .team .team_box .profile .info {
+        top: 15%;
+    }
+    .team .team_box .profile .info .name {
+        margin-bottom: 3px;
+        font-size: 1.4rem;
+    }
+    .team .team_box .profile .info .bio {
+        width: 78%;
+        padding: 0;
+        margin: 0 auto 0px auto;
+        font-size: 1rem;
+    }
+    .team .team_box .profile:hover {
+        height: 230px;
+    }
+    .team .team_box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        row-gap: 8.5rem;
+    }
+    /*Reservation */
+    .section-reservation {
+        padding: 10rem 2.5rem 7rem;
+    }
+    .reservation{
+        width: auto;
+    }
+    .container-reservation > h2 {
+        font-size: 2.3rem;
+        margin-bottom: 0;
+        
+    }
+    .container-reservation > button {
+        margin-top: 1.8rem;
+        border-radius: 0px;
+        padding: 0.5rem 0.8rem 0.5rem;
+        font-size: 0.6rem;
+    }
+    .container-reservation {
+        top: 13%;
+        padding: 4rem 0;
+    }
+    /*Bootstrap modification for reservation*/
+    .offcanvas-body{
+        margin: 3rem 0.5rem;
+    }
+    .offcanvas.offcanvas-end {
+        width: 100%;
+    }
+    .offcanvas-content{
+        padding-top: 6rem;
+    }
+    /*Footer */
+    .contact {
+        box-shadow: inset 0 8px 20px -15px hsla(0, 0%, 0%, 0.504);
+        padding: 4rem 0.5rem 3.5rem 0.5rem;
+        background-color: #989898;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 1.5rem;
+        column-gap: 0;
+    }
+    .section-footer-child {
+        padding: 1.2rem 2rem;
+    }
+    .section-footer-child p {
+        font-size: 1rem;
+    }
+    .col-child a {
+        font-size: 1.2rem;
+        white-space: wrap;
+    }
+    .col{
+        flex-direction: column;
+    }
+    .email-link{
+        font-size: 0.95rem!important;
+    }
+    .section-footer-child p {
+        padding: 0;
+    }
+    /*Cards */
+    .explore-food {
+        display: grid;
+        grid-template-columns: 1fr!important;
+        padding: 6rem 2rem;
+    }
+    .content-left {
+        padding: 0rem 0.5rem 0rem 0.5rem;
+    }
+    .desc-food >p{
+        padding: 0;
+        font-size: 1.2rem;
+    }
+    .food-title >h1{
+        font-size: 1.8rem;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        row-gap: 6.5rem;
+    }
+    .content-right {
+        grid-row: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 6rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .content-right >h1 {
+        font-size: 2.5rem;
+    }
+    .dish-img {
+        width: 16rem;
+        user-select: none;
+        animation: rotate 10s linear infinite;
+    }
+    .card-img {
+        width: 5rem;
+        left: 28%;
+        bottom: 88%;
+    }
+    .price{
+        font-size: 1.5rem;
+    }
+    .icon-tabler-circle-plus{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+@media ( 550px <= width <= 600px ){
+    .card-img {
+        width: 5.5rem;
+        left: 33%;
+        bottom: 88%;
+    }
+    .scrolling-img-mbl{
+        width: 85%;
+        height: 35rem;
+    }
+    .carousel-control-next {
+        width: auto;
+        right: 0!important;
+        top: 0%;
+    }
+    .carousel-control-prev {
+        width: auto;
+        left: 0!important;
+        top: 0%;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+}
+@media ( 600px <= width <= 650px ){
+    .card-img {
+        width: 6rem;
+        left: 33%;
+        bottom: 85%;
+    }
+    .cont-head {
+        padding: 0 2rem!important;
+    }
+}
+@media ( 650px <= width <= 700px ){
+    .head-container-element {
+        padding: 0 5rem;
+    }
+    .title-ex1 {
+        font-size: 1.4rem!important;
+    }
+    .section-main {
+        padding: 2.6rem 3rem 8rem;
+    }
+    .work-1 {
+        padding: 2rem;
+    }
+    .work-img-child {
+        height: 21rem;
+    }
+    .title-date-ex1::before, .title-date-ex2::before {
+        width: 243px;
+    }
+    .flex-text> p {
+        width: 100%;
+        padding: 0 2rem;
+    }
+    .scrolling-content-div {
+        padding: 0 1rem;
+    }
+    .scrolling-div {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .scrolling-div {
+        gap: 0;
+    }
+    .Testimonies-content > h5 {
+        font-size: 1.4rem;
+        padding: 0 4rem 1rem;
+    }
+    .container-reservation > h2 {
+        font-size: 2.7rem;
+    }
+    .work-text-child {
+        gap: 2rem;
+    }
+    .title-date{
+        margin-bottom: 1.8rem;
+    }
+    .card {
+        padding: 6rem 1rem 6rem;
+    }
+    .section-reservation {
+        padding: 15rem 3rem 7rem;
+    }
+    .carousel-inner {
+        padding: 0 4rem;
+    }
+    .Testimonies-container {
+        height: 190rem;
+    }
+    .card {
+        padding: 6rem 1rem 6rem;
+    }
+    .reviews-heading {
+        font-size: 2.8rem!important;
+        padding-right: 0;
+    }
+    .our-place {
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem 0rem 1rem;
+        row-gap: 1.5rem;
+        column-gap: 1.3rem;
+    }
+    .place-child {
+        height: 10rem!important;
+    }
+    .place-text {
+        text-align: start;
+        padding: 0.6rem 0 0 0.5rem;
+        height: 60%;
+    }
+    .place-text h3 {
+        font-size: 18px!important;
+    }
+    .place-text p {
+        font-size: 11px!important;
+        margin-bottom: -1px;
+    }
+    .place-text h6 {
+        font-size: 13px!important;
+    }
+    .contact{
+        column-gap: 0;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        padding: 0 2rem;
+    }
+    .email_input, #submit, .socials button {
+        width: 70%;
+        font-size: 1.2rem;
+    }
+    .card-img {
+        width: 6rem;
+        left: 35%;
+        bottom: 88%;
+    }
+    .scrolling-text >p {
+        font-size: 1.2rem;
+        width: 80%;
+    }
+    .cont-head {
+        padding: 0 3rem;
+    }
+}
+/**************************************************************************************************************/
+@media ( 700px <= width <= 800px ){
+    /*nav */
+    .cont-nav{
+        padding: 0.6rem 1.5rem;
+        gap: 3.3rem;
+    }
+    nav{
+        font-size: 5px;
+        width: 100%;
+    }
+    .cont-nav a:nth-child(1) img {
+        height: 1.6rem;
+        width: 6rem;
+    }
+    .logo-div {
+        gap: 0.5rem;
+    }
+    .btn-group > .btn {
+        font-size: 1rem;
+        padding: 0px 0px 0 8px;
+    }
+    .serch-car {
+        width: auto!important;
+    }
+    .content-sign-up{
+        border-left: none;
+        padding-left: 0;
+    }
+    #btn-nav {
+        font-size: 1rem;
+    }
+    .icon-tabler-user-circle {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    /*header */
+    .head-container {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .head-container-element {
+        width: 100%;
+        padding: 0 6rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    p {
+        font-size: 22px;
+        line-height: 1.2;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+    .btn-see-more {
+        font-size: 20px;
+    }
+    .cont-head{
+        display: flex;
+        align-items: center;
+    }
+    .header-foody-logo {
+        width: 9rem;
+    }
+    header, video{
+        height: 94vh;
+    }
+    .cont-head >h1 {
+        font-size: 45px;
+    }
+    .cont-head{
+        padding: 0;
+    }
+    /*For bootstrap sign up*/
+    .modal-content {
+        border-radius: 8px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .modal-text h4 {
+        font-size: 1.8rem;
+    }
+    .modal-text p {
+        font-size: 1.3rem;
+        padding: 0 1.5rem;
+    }
+    .email_input, #submit, .socials button{
+        width: 70%;
+        font-size: 1.3rem;
+    }
+    .email_input{
+        font-size: 1rem;
+    }
+    .modal-text p{
+        width: 70%;
+    }
+    .socials-child strong{
+        font-size: 1.3rem;
+    }
+    .socials-child{
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+    }
+    #submit{
+        padding-top: 1rem;
+        padding-bottom: 2.3rem;
+    }
+    .forget-password{
+        font-size: 1.2rem;
+    }
+    .btn-close{
+        background-size: 1rem;
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+    /*Main */
+    main{
+        padding-top: 8rem;
+    }
+    .heading-primary {
+        font-size: 2.3rem;
+    }
+    .section-main {
+        grid-template-columns: 1fr;
+        padding: 2.6rem 3rem 8rem;
+    }
+    .works {
+        grid-template-columns: 1fr;
+    }
+    .title-ex1 {
+        font-size: 1.6rem!important;      
+    }
+    #title-ex2 {
+        font-size: 1.45rem!important;
+    }
+    .flex-text> p {
+        font-size: 1.3rem!important;
+    }
+    .work-1{
+        padding: 2rem;
+        align-items: start;
+        width: 100%;
+    }
+    .flex-text> p {
+        width: 100%;
+        padding: 0 2rem;
+        font-size: 1.5rem!important;
+    }
+    .work-text-child {
+        grid-template-columns: 1fr;
+    }
+    .work-img {
+        width: 100%;
+    }
+    .work-text {
+        width: 100%;
+    }
+    .flex-text {
+        flex-direction: row;
+        column-gap: 3rem;
+    }
+    .title-date-ex1::before, .title-date-ex2::before {
+        width: 150px;
+        left: auto;
+    }
+    .work-img-child {
+        height: 21rem;
+    }
+    .stacks p {
+        font-size: 1.6rem;
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    .links a{
+        font-size: 1.7rem;
+        padding: 0.7rem 1.3rem;
+    }
+    /*Gallery */
+    .section-Gallery {
+        padding: 6rem 0rem 9rem;
+        width: 100%;
+    }
+    .carousel-control-next {
+        width: auto;
+        right: 0rem!important;
+        top: -5%;
+    }
+    .carousel-control-prev {
+        width: auto;
+        left: 0rem!important;
+        top: -5%;
+    }
+    .heading-secondary {
+        font-size: 1.5rem;
+        padding: 1.7rem 2rem 0rem;
+    }
+    .scrolling-text >h5 {
+        font-size: 1rem;
+    }
+    .scrolling-text >p {
+        font-size: 1rem;
+        padding: 0!important;
+        width: 90%;
+    }
+    .scrolling-content-div {
+        padding: 0 0.5rem;
+    }
+    .scrolling-div {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0;
+    }
+    .carousel-indicators {
+        bottom: -10%;
+        margin-bottom: 0;
+        z-index: 0;
+    }
+    .carousel-inner {
+        padding: 0 2.5rem;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .gallary .gallary_image_box {
+        grid-template-columns: 1fr 1fr;
+    }
+    .gallary .gallary_image_box .gallary_image p {
+        padding: 0;
+        width: 45%;
+        font-size: 1rem;
+    }
+    .gallary .gallary_image_box .gallary_image .gallary_btn {
+        margin-top: 154px;
+    }
+    /* Visit Us */
+    .card {
+        padding: 6rem 1rem 6rem;
+    }
+    .reviews-heading {
+        font-size: 2.8rem!important;
+        padding-right: 0;
+    }
+    .our-place {
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem 0rem 1rem;
+        row-gap: 1.5rem;
+        column-gap: 1.3rem;
+    }
+    .place-child {
+        height: 11rem!important;
+    }
+    .place-text {
+        text-align: start;
+        padding: 0.6rem 0 0 0.5rem;
+        height: 60%;
+    }
+    .place-text h3 {
+        font-size: 19px!important;
+    }
+    .place-text p {
+        font-size: 12px!important;
+        margin-bottom: 0px;
+    }
+    .place-text h6 {
+        font-size: 12px!important;
+    }
+    /*Testimonies */
+    .Testimonies-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 190rem;
+    }
+    .Testimonies-content {
+        margin-bottom: 6rem;
+    }
+    .Testimonies-title {
+        left: 7%;
+        font-size: 2.9rem;
+    }
+    .Testimonies-content {
+        margin-bottom: 6rem;
+    }
+    .Testimonies-content > img {
+        height: 7rem;
+        width: 7rem;
+        margin-bottom: 0;
+        border: 2px solid #000;
+    }
+    .first-testimonie> .Testimonies-content> h5 {
+        width: auto;
+    }
+    .Testimonies-content > h5 {
+        font-size: 1.2rem;
+        padding: 0 3rem 1rem;
+    }
+
+    .your-reviews-comment {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    #comment {
+        width: 33rem;
+    }
+    .your-comments {
+        padding: 6rem 1rem 2rem;
+    }
+    .team .team_box .profile {
+        width: 220px;
+        height: 220px;
+        margin: 0 10px;
+    }
+    .team .team_box .profile img {
+        width: 170px;
+        height: 170px;
+    }
+    .team .team_box .profile:hover .info {
+        top: 32%;
+    }
+    .team .team_box .profile .info {
+        top: 19%;
+    }
+    .team .team_box .profile .info .name {
+        margin-bottom: 3px;
+        font-size: 1.4rem;
+    }
+    .team .team_box .profile .info .bio {
+        width: 78%;
+        padding: 0;
+        margin: 0 auto 0px auto;
+        font-size: 1rem;
+    }
+    .team .team_box .profile:hover {
+        height: 250px;
+    }
+    .team .team_box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        row-gap: 7rem;
+    }
+    /*Reservation */
+    .section-reservation {
+        padding: 10rem 3rem 7rem;
+    }
+    .reservation{
+        width: auto;
+    }
+    .container-reservation > h2 {
+        font-size: 2.3rem;
+        margin-bottom: 0;
+    }
+    .container-reservation > button {
+        margin-top: 1.8rem;
+        border-radius: 0px;
+        padding: 0.5rem 0.8rem 0.5rem;
+        font-size: 0.6rem;
+    }
+    .container-reservation {
+        top: 13%;
+        padding: 4rem 0;
+    }
+    /*Bootstrap modification for reservation*/
+    .offcanvas-body{
+        margin: 3rem 0.5rem;
+    }
+    .offcanvas.offcanvas-end {
+        width: 75%;
+    }
+    .offcanvas-content{
+        padding-top: 5.2rem;
+    }
+    /*Footer */
+    .contact {
+        box-shadow: inset 0 8px 20px -15px hsla(0, 0%, 0%, 0.504);
+        padding: 4rem 0.5rem 3.5rem 0.5rem;
+        background-color: #989898;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 1.5rem;
+        column-gap: 0;
+    }
+    .section-footer-child {
+        padding: 1.2rem 2rem;
+    }
+    .section-footer-child p {
+        font-size: 1rem;
+    }
+    .col-child a {
+        font-size: 1.2rem;
+        white-space: wrap;
+    }
+    .col{
+        flex-direction: column;
+    }
+    .email-link{
+        font-size: 0.95rem!important;
+    }
+    .col span{
+        width: 7rem!important;
+        height: 5rem!important;
+    }
+    .col-bands{
+        height: 3rem;
+    }
+    .contact > .col:nth-child(2) span {
+        width: 8rem!important;
+    }
+    .section-footer-child p {
+        padding: 0;
+    }
+    /*Cards */
+    .explore-food {
+        display: grid;
+        grid-template-columns: 1fr!important;
+        padding: 6rem 3rem;
+    }
+    .desc-food >p{
+        padding: 0;
+    }
+    .content-left {
+        padding: 0rem 0.5rem 0rem 0.5rem;
+    }
+    .food-title >h1{
+        font-size: 1.8rem;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        row-gap: 6.5rem;
+    }
+    .content-right {
+        grid-row: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 6rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .content-right >h1 {
+        font-size: 3.5rem;
+    }
+    .dish-img {
+        width: 20rem;
+        user-select: none;
+        animation: rotate 10s linear infinite;
+    }
+    .card-img {
+        width: 7rem;
+        left: 34%;
+        bottom: 88%;
+    }
+    .price{
+        font-size: 1.5rem;
+    }
+    .icon-tabler-circle-plus{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+@media ( 750px <= width <= 800px ){
+    .card-img {
+        width: 7rem;
+        left: 35%;
+        bottom: 88%;
+    }
+    .cont-head {
+        padding: 0 2rem;
+    }
+}
+@media ( 763px <= width <= 800px ){
+    .scrolling-text >p {
+        font-size: 1rem;
+        padding: 0!important;
+    }
+    .place-child {
+        height: 12.5rem!important;
+    }
+    .place-text {
+        text-align: start;
+        padding: 0.6rem 0 0 0.5rem;
+        height: 55%;
+    }
+    .place-text h3 {
+        font-size: 22px!important;
+    }
+    .place-text p {
+        font-size: 13px!important;
+        margin-bottom: 0px;
+    }
+    .place-text h6 {
+        font-size: 13px!important;
+    }
+    .Testimonies-content > h5 {
+        font-size: 1.5rem;
+        padding: 0 6rem 1rem;
+    }
+    .container-reservation > h2 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+    .email-link {
+        font-size: 1.1rem!important;
+    }
+    .head-container-element {
+        width: 100%;
+        padding: 0 9rem;
+    }
+}
+/**************************************************************************************************************/
+@media ( 800px <= width <= 900px ){
+    /*nav */
+    .cont-nav{
+        padding: 0.7rem 1.5rem;
+        gap: 3.3rem;
+    }
+    nav{
+        font-size: 5px;
+        width: 100%;
+    }
+    .cont-nav a:nth-child(1) img {
+        height: 1.66rem;
+        width: 6rem;
+    }
+    .logo-div {
+        gap: 0.5rem;
+    }
+    .btn-group > .btn {
+        font-size: 1.05rem;
+        padding: 0px 0px 0 8px;
+    }
+    .serch-car {
+        width: auto!important;
+    }
+    .content-sign-up{
+        border-left: none;
+        padding-left: 0;
+    }
+    #btn-nav {
+        font-size: 1.1rem;
+    }
+    .icon-tabler-user-circle {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    header, video{
+        height: 94vh;
+    }
+    .cont-head >h1 {
+        font-size: 43px;
+    }
+    .cont-head{
+        padding: 0 2rem;
+    }
+    /*header */
+    .head-container {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .head-container-element {
+        width: 100%;
+        padding: 0 8rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    p {
+        font-size: 22px;
+        line-height: 1.2;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .btn-see-more {
+        font-size: 22px;
+    }
+    .cont-head{
+        display: flex;
+        align-items: center;
+    }
+    .btn-close {
+        background-size: 1rem;
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+    /*Main */
+    main{
+        padding-top: 8rem;
+    }
+    .heading-primary {
+        font-size: 2.9rem;
+    }
+    .section-main {
+        grid-template-columns: 1fr;
+    }
+    .works {
+        grid-template-columns: 1fr;
+        padding: 6rem 4rem 8rem;
+    }
+    .title-ex1 {
+        font-size: 1.8rem!important;      
+    }
+    #title-ex2 {
+        font-size: 1.6rem!important;
+    }
+    .flex-text> p {
+        font-size: 1.7rem!important;
+    }
+    .work-1{
+        padding: 2rem;
+        align-items: start;
+        width: 100%;
+    }
+    .flex-text> p {
+        width: 100%;
+        padding: 0 2rem;
+        font-size: 1.5rem!important;
+    }
+    .work-text-child {
+        grid-template-columns: 3fr;
+        gap: 2rem;
+    }
+    .work-img {
+        width: 100%;
+    }
+    .work-text {
+        width: 100%;
+    }
+    .flex-text {
+        flex-direction: row;
+        column-gap: 3rem;
+    }
+    .title-date-ex1::before, .title-date-ex2::before {
+        width: 280px;
+        left: auto;
+    }
+    .work-img-child {
+        height: 25rem;
+    }
+    .title-date{
+        margin-bottom: 2.5rem;
+    }
+    .stacks p {
+        font-size: 1.6rem;
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    .links a{
+        font-size: 1.7rem;
+        padding: 0.7rem 1.3rem;
+    }
+    /*Gallery */
+    .section-Gallery {
+        padding: 6rem 0rem 9rem;
+    }
+    .carousel-control-next {
+        width: auto;
+        right: 0rem!important;
+        top: -5%;
+    }
+    .carousel-control-prev {
+        width: auto;
+        left: 0rem!important;
+        top: -5%;
+    }
+    .heading-secondary {
+        font-size: 1.5rem;
+        padding: 1.7rem 2rem 0rem;
+    }
+    .scrolling-text >h5 {
+        font-size: 1.3rem;
+    }
+    .scrolling-text >p {
+        font-size: 1.1rem;
+        padding: 0!important;
+    }
+    .scrolling-content-div {
+        padding: 0 0.5rem;
+    }
+    .scrolling-div {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0;
+    }
+    .carousel-indicators {
+        bottom: -10%;
+        margin-bottom: 0;
+        z-index: 0;
+    }
+    .carousel-inner {
+        padding: 0 3.5rem;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .gallary .gallary_image_box .gallary_image p {
+        padding: 0;
+        font-size: 0.9rem;
+        text-align: center;
+        margin: 0;
+        line-height: 18px;
+    }
+    .gallary .gallary_image_box .gallary_image .gallary_btn {
+        margin-top: 105px;
+        padding: 5px 17px;
+    }
+    .gallary .gallary_image_box .gallary_image h3 {
+        font-size: 30px;
+        margin-bottom: 110px;
+    }
+    /* Visit Us */
+    .card {
+        padding: 6rem 1.3rem 6rem;
+    }
+    .reviews-heading {
+        font-size: 2.8rem!important;
+        padding-right: 0;
+    }
+    .our-place {
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem 0rem 1rem;
+        row-gap: 1.5rem;
+        column-gap: 1.3rem;
+    }
+    .place-child {
+        height: 14.3rem!important;
+    }
+    .place-text {
+        text-align: start;
+        padding: 0.8rem 0 0 0.5rem;
+        height: 50%;
+    }
+    .place-text h3 {
+        font-size: 23px!important;
+    }
+    .place-text p {
+        font-size: 13px!important;
+        margin-bottom: 0px;
+    }
+    .place-text h6 {
+        font-size: 13px!important;
+    }
+    /*Testimonies */
+    .Testimonies-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 60rem;
+    }
+    .Testimonies-content > h5 {
+        font-size: 1rem;
+        padding: 0 1rem 1rem;
+    }
+    .Testimonies-title {
+        left: 7%;
+        font-size: 2.5rem;
+    }
+    .Testimonies-content {
+        margin-bottom: 2rem;
+    }
+    .Testimonies-content > img {
+        height: 7rem;
+        width: 7rem;
+    }
+    .first-testimonie> .Testimonies-content> h5 {
+        width: auto;
+    }
+
+    #comment {
+        width: 28rem;
+    }
+    .your-comments {
+        padding: 4rem 1rem 6rem;
+    }
+    .team .team_box .profile {
+        width: 180px;
+        height: 180px;
+        margin: 0 10px;
+    }
+    .team .team_box .profile img {
+        width: 150px;
+        height: 150px;
+    }
+    .team .team_box .profile:hover .info {
+        top: 32%;
+    }
+    .team .team_box .profile .info {
+        top: 15%;
+    }
+    .team .team_box .profile .info .name {
+        margin-bottom: 3px;
+        font-size: 1.15rem;
+    }
+    .team .team_box .profile .info .bio {
+        width: 78%;
+        padding: 0;
+        margin: 0 auto 0px auto;
+        font-size: 1rem;
+    }
+    .team .team_box .profile:hover {
+        height: 250px;
+    }
+    .your-comments{
+        padding: 4rem 1rem 12rem;
+    }
+    /*Reservation */
+    .section-reservation {
+        padding: 10rem 4rem 7rem;
+    }
+    .reservation{
+        width: auto;
+    }
+    .container-reservation > h2 {
+        font-size: 3rem;
+        margin-bottom: 0;
+        
+    }
+    .container-reservation > button {
+        margin-top: 1.8rem;
+        border-radius: 0px;
+        padding: 0.6rem 1rem 0.7rem;
+        font-size: 1rem;
+    }
+    .container-reservation {
+        top: 13%;
+        padding: 4rem 0;
+    }
+    /*Bootstrap modification for reservation*/
+    .offcanvas-body{
+        margin: 3rem 0.5rem;
+    }
+    .offcanvas.offcanvas-end {
+        width: 70%;
+    }
+    .offcanvas-content{
+        padding-top: 5.3rem;
+    }
+    /*Footer */
+    .contact {
+        box-shadow: inset 0 8px 20px -15px hsla(0, 0%, 0%, 0.504);
+        padding: 4rem 0.5rem 3.5rem 0.5rem;
+        background-color: #989898;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 1.5rem;
+        column-gap: 0;
+    }
+    .section-footer-child {
+        padding: 1.2rem 2rem;
+    }
+    .section-footer-child p {
+        font-size: 1rem;
+    }
+    .col-child a {
+        font-size: 1.8rem;
+        white-space: wrap;
+    }
+    .col{
+        flex-direction: column;
+    }
+    .email-link{
+        font-size: 1.3rem!important;
+    }
+    .col span{
+        width: 7rem!important;
+        height: 5rem!important;
+    }
+    .col-bands{
+        height: 3rem;
+    }
+    .contact > .col:nth-child(2) span {
+        width: 8rem!important;
+    }
+    .section-footer-child p {
+        padding: 0;
+    }
+    /*Cards */
+    .explore-food {
+        display: grid;
+        grid-template-columns: 1fr!important;
+        padding: 6rem 3rem;
+    }
+    .content-left {
+        padding: 0rem 0.5rem 0rem 0.5rem;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        row-gap: 6.5rem;
+    }
+    .content-right {
+        grid-row: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 6rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .content-right >h1 {
+        font-size: 3.5rem;
+    }
+    .food-title >h1{
+        font-size: 1.8rem;
+    }
+    .dish-img {
+        width: 20rem;
+        user-select: none;
+        animation: rotate 10s linear infinite;
+    }
+    .desc-food >p{
+        padding: 0;
+    }
+    .card-img {
+        width: 7rem;
+        left: 35%;
+        bottom: 88%;
+    }
+    .price{
+        font-size: 1.5rem;
+    }
+    .icon-tabler-circle-plus{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+@media ( 850px <= width <= 900px ){
+    .cont-nav {
+        padding: 0.8rem 2rem;
+        gap: 3.3rem;
+    }
+    .cont-nav a:nth-child(1) img {
+        height: 1.8rem;
+        width: 6rem;
+    }
+    .btn-group > .btn {
+        font-size: 1.1rem;
+        padding: 0px 0px 0 8px;
+    }
+    #btn-nav {
+        font-size: 1.1rem;
+    }
+    .icon-tabler-user-circle {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+    h1 {
+        font-size: 3.3rem;
+    }
+    p {
+        font-size: 20px;
+        line-height: 1.2;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 3rem;
+    }
+    .btn-see-more {
+        font-size: 23px;
+    }
+    .title-ex1 {
+        font-size: 2rem!important;
+    }
+    .flex-text> p {
+        width: 100%;
+        padding: 0 2rem;
+        font-size: 1.7rem!important;
+    }
+    .stacks p {
+        font-size: 1.6rem;
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    .links a{
+        font-size: 1.7rem;
+        padding: 0.7rem 1.3rem;
+    }
+    .heading-secondary {
+        font-size: 2rem;
+        padding: 1.7rem 2rem 0rem;
+    }
+    .carousel-inner {
+        padding: 0 3rem;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+    .scrolling-text >h5 {
+        font-size: 1.4rem;
+    }
+    .scrolling-text >p {
+        font-size: 1.1rem;
+        padding: 0 2.5rem;
+    }
+    .reviews-heading {
+        font-size: 3rem!important;
+        padding-right: 0;
+    }
+    .Testimonies-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 60rem;
+    }
+    .Testimonies-content > h5 {
+        font-size: 1rem;
+        padding: 0 1rem 1rem;
+    }
+    .Testimonies-title {
+        left: 7%;
+        font-size: 2.5rem;
+    }
+    .Testimonies-content {
+        margin-bottom: 2rem;
+    }
+    .Testimonies-content > img {
+        height: 7rem;
+        width: 7rem;
+    }
+    .email-link {
+        font-size: 1.5rem!important;
+    }
+    .col span{
+        width: 7rem!important;
+        height: 5rem!important;
+    }
+    .col-bands{
+        height: 3rem;
+    }
+    .contact > .col:nth-child(2) span {
+        width: 8rem!important;
+    }
+    .place-child {
+        height: 15.5rem!important;
+    }
+    .place-text p {
+        font-size: 14px!important;
+        margin-bottom: 0px;
+    }
+    .place-text h3 {
+        font-size: 25px!important;
+    }
+    .place-text h6 {
+        font-size: 13px!important;
+    }
+    .card {
+        padding: 6rem 1.5rem 6rem;
+    }
+    .head-container-element >p, .text-col >p {
+        font-size: 20px;
+    }
+    .cont-head >h1 {
+        font-size: 40px!important;
+        width: 80%;
+    }
+    .cont-h1{
+        padding: 0 4.5rem;
+    }
+    .header-foody-logo {
+        width: 8rem;
+    }
+    .cont-head{
+        padding: 0 5rem;
+    }
+    /*Bootstrap modification for reservation*/
+    .offcanvas-body{
+        margin: 3rem 1rem;
+    }
+    .card-img {
+        width: 7rem;
+        left: 36%;
+        bottom: 88%;
+    }
+}
+/**************************************************************************************************************/
+@media ( 900px <= width <= 1000px ){
+    /*nav */
+    .cont-nav{
+        padding: 0.8rem 1.5rem;
+        gap: 3.3rem;
+    }
+    nav{
+        font-size: 5px;
+        width: 100%;
+    }
+    .cont-nav a:nth-child(1) img {
+        height: 1.8rem;
+        width: 6rem;
+    }
+    .logo-div {
+        gap: 0.5rem;
+    }
+    .btn-group > .btn {
+        font-size: 1.2rem;
+        padding: 0px 0px 0 8px;
+    }
+    .content-sign-up{
+        border-left: none;
+        padding-left: 0;
+    }
+    #btn-nav {
+        font-size: 1.2rem;
+    }
+    .icon-tabler-user-circle {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .serch-car {
+        width: auto!important;
+    }
+    /*header */
+    .head-container {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .head-container-element {
+        width: 100%;
+        padding: 0 6rem;
+    }
+    h1{
+        font-size: 3.3rem;
+    }
+    p {
+        font-size: 22px;
+        line-height: 1.2;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 8rem;
+    }
+    .btn-see-more {
+        font-size: 22px;
+    }
+    header, video{
+        height: 94vh;
+    }
+    .cont-head{
+        display: flex;
+        align-items: center;
+        padding: 0 8rem;
+    }
+    .header-foody-logo {
+        width: 11rem;
+        padding-right: 2rem;
+    }
+    .btn-close {
+        background-size: 1rem;
+        height: 1.2rem;
+        width: 1.2rem;
+    }
+    /*Main */
+    main{
+        padding-top: 8rem;
+    }
+    .heading-primary {
+        font-size: 2.9rem;
+    }
+    .cont-h1 {
+        padding: 0 1rem;
+        background-color: #0ca678;
+    }
+    .title-ex1 {
+        font-size: 1.3rem!important;      
+    }
+    #title-ex2 {
+        font-size: 1rem!important;
+    }
+    .flex-text> p {
+        font-size: 1rem!important;
+    }
+    .work-1{
+        padding: 2rem;
+        align-items: start;
+        width: 100%;
+    }
+    .flex-text> p {
+        width: 100%;
+        padding: 0 2rem;
+        font-size: 1rem!important;
+    }
+    .work-text-child {
+        grid-template-columns: 1fr;
+    }
+    .work-img {
+        width: 100%;
+    }
+    .work-text {
+        width: 100%;
+    }
+    .flex-text {
+        flex-direction: row;
+        column-gap: 3rem;
+    }
+    .title-date-ex1::before, .title-date-ex2::before {
+        width: 280px;
+        left: auto;
+    }
+    .work-img-child {
+        height: 18rem;
+    }
+    .section-main {
+        background-color: tan;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 2.6rem 1rem 8rem;
+    }
+    .works{
+        gap: 1rem;
+    }
+    /*Gallery */
+    .section-Gallery {
+        padding: 6rem 0rem 9rem;
+    }
+    .carousel-control-next {
+        width: auto;
+        right: 0rem!important;
+        top: -5%;
+    }
+    .carousel-control-prev {
+        width: auto;
+        left: 0rem!important;
+        top: -5%;
+    }
+    .heading-secondary {
+        font-size: 2rem;
+        padding: 1.7rem 2rem 0rem;
+    }
+    .scrolling-text >h5 {
+        font-size: 1.3rem;
+    }
+    .scrolling-text >p {
+        font-size: 1.1rem;
+        padding: 0 2rem;
+    }
+    .scrolling-content-div {
+        padding: 0 0.5rem;
+    }
+    .scrolling-div {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0;
+    }
+    .carousel-indicators {
+        bottom: -10%;
+        margin-bottom: 0;
+        z-index: 0;
+    }
+    .carousel-inner {
+        padding: 0 3rem;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+    .gallary .gallary_image_box .gallary_image p {
+        padding: 0;
+        font-size: 0.9rem;
+        text-align: center;
+        margin: 0;
+    }
+    .gallary .gallary_image_box .gallary_image .gallary_btn {
+        margin-top: 120px;
+    }
+    /* Visit Us */
+    .card {
+        padding: 6rem 3.5rem 6rem;
+    }
+    .reviews-heading {
+        font-size: 2.8rem!important;
+        padding-right: 0;
+    }
+    .our-place {
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem 0rem 1rem;
+        row-gap: 1.5rem;
+        column-gap: 1.3rem;
+    }
+    .place-child {
+        height: 13.3rem!important;
+    }
+    .place-text {
+        text-align: start;
+        padding: 0.8rem 0 0 0.5rem;
+        height: 50%;
+    }
+    .place-text h3 {
+        font-size: 22px!important;
+    }
+    .place-text p {
+        font-size: 13px!important;
+        margin-bottom: 0px;
+    }
+    .place-text h6 {
+        font-size: 13px!important;
+    }
+    /*Testimonies */
+    .Testimonies-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 60rem;
+    }
+    .Testimonies-content > h5 {
+        font-size: 1rem;
+        padding: 0 1rem 1rem;
+    }
+    .Testimonies-title {
+        left: 7%;
+        font-size: 2.5rem;
+    }
+    .Testimonies-content {
+        margin-bottom: 2rem;
+    }
+    .Testimonies-content > img {
+        height: 7rem;
+        width: 7rem;
+    }
+    .first-testimonie> .Testimonies-content> h5 {
+        width: auto;
+    }
+    .your-comments {
+        padding: 4rem 1rem 6rem;
+    }
+    .team .team_box .profile {
+        width: 200px;
+        height: 200px;
+    }
+    .team .team_box .profile img {
+        width: 170px;
+        height: 170px;
+    }
+    .team .team_box .profile:hover .info {
+        top: 32%;
+    }
+    .team .team_box .profile .info {
+        top: 15%;
+    }
+    .team .team_box .profile .info .name {
+        margin-bottom: 15px;
+        font-size: 1.3rem;
+    }
+    .team .team_box .profile .info .bio {
+        width: 80%;
+        padding: 0;
+        margin: 0 auto 0px auto;
+        font-size: 1rem;
+    }
+    .team .team_box .profile:hover {
+        height: 250px;
+    }
+    .your-comments{
+        padding: 4rem 1rem 12rem;
+    }
+    /*Reservation */
+    .section-reservation {
+        padding: 10rem 5rem 7rem;
+    }
+    .reservation{
+        width: auto;
+    }
+    .container-reservation > h2 {
+        font-size: 3rem;
+        margin-bottom: 0;
+        
+    }
+    .container-reservation > button {
+        margin-top: 1.8rem;
+        border-radius: 0px;
+        padding: 0.6rem 1rem 0.7rem;
+        font-size: 1rem;
+    }
+    .container-reservation {
+        top: 13%;
+        padding: 4rem 0;
+    }
+    .offcanvas.offcanvas-end {
+        width: 65%;
+    }
+    /*Bootstrap modification for reservation*/
+    .offcanvas-body{
+        margin: 3rem 1rem;
+    }
+    .offcanvas-content{
+        padding-top: 5.19rem;
+    }
+    /*Footer */
+    .contact {
+        box-shadow: inset 0 8px 20px -15px hsla(0, 0%, 0%, 0.504);
+        padding: 4rem 0.5rem 3.5rem 0.5rem;
+        background-color: #989898;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 1.5rem;
+        column-gap: 0;
+    }
+    .section-footer-child {
+        padding: 1.2rem 2rem;
+    }
+    .section-footer-child p {
+        font-size: 1rem;
+    }
+    .col-child a {
+        font-size: 1.4rem;
+        white-space: wrap;
+    }
+    .head-container-element >p, .text-col >p {
+        font-size: 1.1rem;
+    }
+    .cont-head >h1 {
+        font-size: 43px;
+    }
+    .col{
+        flex-direction: column;
+    }
+    .email-link{
+        font-size: 1.3rem!important;
+    }
+    .col span{
+        width: 7rem!important;
+        height: 5rem!important;
+    }
+    .col p{
+        padding: 0;
+    }
+    .col-bands{
+        height: 3rem;
+    }
+    .contact > .col:nth-child(2) span {
+        width: 8rem!important;
+    }
+    .section-footer-child p {
+        padding: 0;
+    }
+    /*Cards */
+    .explore-food {
+        display: grid;
+        grid-template-columns: 1fr!important;
+        padding: 6rem 3rem;
+    }
+    .desc-food >p{
+        padding: 0;
+        font-size: 1.2rem;
+    }
+    .food-title >h1{
+        font-size: 2rem;
+    }
+    .content-left {
+        padding: 0rem 0.5rem 0rem 0.5rem;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        row-gap: 6.5rem;
+    }
+    .content-right {
+        grid-row: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 10rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .content-right >h1 {
+        font-size: 3.5rem;
+    }
+    .dish-img {
+        width: 20rem;
+        user-select: none;
+        animation: rotate 10s linear infinite;
+    }
+    .card-img {
+        width: 7rem;
+        left: 30%;
+        bottom: 88%;
+    }
+    .price{
+        font-size: 1.5rem;
+    }
+    .icon-tabler-circle-plus{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+@media ( 950px <= width <= 1000px ){
+    .head-container-element {
+        padding: 0 12rem;
+    }
+    .heading-secondary {
+        font-size: 2rem;
+        padding-bottom: 0;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+    .scrolling-text >h5 {
+        font-size: 1.4rem;
+    }
+    h1{
+        font-size: 3.3rem;
+    }
+    p{
+        padding: 0 4rem;
+    }
+    .card-img {
+        width: 7rem;
+        left: 32%;
+        bottom: 88%;
+    }
+    .cont-head {
+        padding: 0px 3rem;
+    }
+}
+@media ( 857px <= width <= 899px ){
+    .scrolling-text >p {
+        font-size: 1.1rem;
+        padding: 0 3rem;
+    }
+}
+@media ( 900px <= width <= 979px ){
+    .scrolling-text >p {
+        padding: 0;
+        font-size: 1rem;
+    }
+}
+/**************************************************************************************************************/
+@media ( 1001px <= width <= 1100px ){
+    /*Header */
+    .cont-nav {
+        padding: 0.6rem 1rem 0.58rem 1rem;
+        z-index: 1;
+    }
+    nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        background-color: #212529;
+        gap: 2rem;
+    }
+    .head-container {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .head-container-element {
+        width: 100%;
+        padding: 0 16rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .cont-head {
+        display: flex;
+        align-items: center;
+    }
+    .header-foody-logo {
+        width: 10rem;
+    }
+    .carousel-control-next {
+        right: -4.5rem !important;
+    }
+    .carousel-control-prev {
+        left: -4.5rem !important;
+    }
+    /*Main */
+    .section-main {
+        background-color: tan;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 2.6rem 1rem 8rem;
+    }
+    .work-text {
+        width: 100%;
+    }
+    /*Gallery */
+    .section-Gallery {
+        padding: 6rem 5rem 9rem;
+    }
+    /*Visit us*/
+    .card {
+        padding: 6rem 2rem 6rem;
+    }
+    .place-child {
+        height: 18rem;
+    }
+    .our-place {
+        row-gap: 2rem;
+    }
+    /*Testimonies */
+    .Testimonies-container {
+        height: 49rem;
+    }
+    .Testimonies-content > h5{
+        padding: 0 0rem 1rem;
+    }
+    /*Footer */
+    .contact {
+        gap: 2rem;
+    }
+    /*Bootstrap modification for reservation*/
+    .offcanvas-body{
+        margin: 3rem 1rem;
+    }
+    .offcanvas-content{
+        padding-top: 5.1rem;
+    }
+    .cont-h1 {
+        padding: 0 1rem;
+        background-color: #0ca678;
+    }
+    /*Cards */
+    .explore-food {
+        display: grid;
+        grid-template-columns: 1fr!important;
+        padding: 6rem 3rem;
+    }
+    .desc-food >p{
+        padding: 0;
+        font-size: 1.3rem;
+    }
+    .food-title >h1{
+        font-size: 2.7rem;
+    }
+    .content-left {
+        padding: 0rem 0.5rem 0rem 0.5rem;
+    }
+    .card-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        row-gap: 6.5rem;
+    }
+    .content-right {
+        grid-row: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 10rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .content-right >h1 {
+        font-size: 3.5rem;
+    }
+    .dish-img {
+        width: 20rem;
+        user-select: none;
+        animation: rotate 10s linear infinite;
+    }
+    .card-img {
+        width: 7rem;
+        left: 33%;
+        bottom: 88%;
+    }
+    .price{
+        font-size: 1.5rem;
+    }
+    .icon-tabler-circle-plus{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+/**************************************************************************************************************/
+@media ( 1100px <= width <= 1265px ){
+     /*Header */
+     .cont-nav {
+        padding: 0.6rem 1rem 0.58rem 1rem;
+        z-index: 1;
+    }
+    nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        background-color: #212529;
+        gap: 2rem;
+    }
+    .head-container {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .head-container-element {
+        width: 100%;
+        padding: 0 16rem;
+    }
+    h1{
+        font-size: 3.6rem;
+    }
+    .cont-head {
+        display: flex;
+        align-items: center;
+    }
+    .header-foody-logo {
+        width: 10rem;
+    }
+    /*Main */
+    .section-main {
+        background-color: tan;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 2.6rem 1rem 8rem;
+    }
+    .works{
+        gap: 1.5rem;
+    }
+    .work-text {
+        width: 100%;
+    }
+    /*Gallery */
+    .section-Gallery {
+        padding: 6rem 5rem 9rem;
+    }
+    /*Visit us*/
+    .card {
+        padding: 6rem 4rem 6rem;
+    }
+    .place-child {
+        height: 18rem;
+    }
+    .our-place {
+        row-gap: 2rem;
+    }
+    /*Testimonies */
+    .Testimonies-container {
+        height: 49rem;
+    }
+    .Testimonies-content > h5{
+        padding: 0 0rem 1rem;
+    }
+    /*Footer */
+    .contact {
+        gap: 2rem;
+    }
+    .carousel-control-next {
+        right: -4.5rem !important;
+    }
+    .carousel-control-prev {
+        left: -4.5rem !important;
+    }
+    .cont-h1 {
+        padding: 0 1rem;
+        background-color: #0ca678;
+    }
+    /*Cards */
+    .food-title >h1{
+        font-size: 1.5rem;
+    }
+    .dish-img {
+        width: 18rem;
+    }
+    .card-img {
+        width: 5rem;
+        bottom: 85%;
+        left: 28%;
+
+    }
+}
+@media ( 1000px <= width <= 1200px ){
+    .gallary .gallary_image_box .gallary_image .gallary_btn {
+        margin-top: 130px;
+    }
+    .gallary .gallary_image_box .gallary_image p {
+        line-height: 18px;
+    }
+    .team .team_box .profile {
+        width: 200px;
+        height: 200px;
+    }
+    .team .team_box .profile img {
+        width: 170px;
+        height: 170px;
+    }
+    .team .team_box .profile:hover .info {
+        top: 32%;
+    }
+    .team .team_box .profile .info {
+        top: 15%;
+    }
+    .team .team_box .profile .info .name {
+        margin-bottom: 15px;
+        font-size: 1.3rem;
+    }
+    .team .team_box .profile .info .bio {
+        width: 80%;
+        padding: 0;
+        margin: 0 auto 0px auto;
+        font-size: 1rem;
+    }
+    .team .team_box .profile:hover {
+        height: 250px;
+    }
+    .your-comments{
+        padding: 4rem 1rem 12rem;
+    }
+}
+/**************************************************************************************************************/
+/**********/
+/**********/
