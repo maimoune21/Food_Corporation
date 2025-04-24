@@ -1,0 +1,240 @@
+@media (max-width: 333px) {
+    /*TO Others Pages*/
+    body {
+        margin: 0 auto;
+        width: auto;
+        border: none;
+    }
+    header {
+        margin-top: 0;
+        height: auto;
+    }
+    header h1 {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    nav a {
+        width: auto;
+        padding: 5px 0;
+        font-size: 0.9rem;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .heading-primary {
+        font-size: 1.3rem;
+        padding: 1rem 0 0;
+    }
+    footer{
+        padding-bottom: 1rem;
+    }
+    footer nav a{
+        width: auto;
+    }
+    /**/
+    .grid-2-fr{
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+    .roasting-text{
+        font-size: 0.96rem;
+        overflow: visible;
+        padding-bottom: 1rem;
+    }
+    .roasting-img{
+        margin: 0;
+        margin: 0.3rem;
+    }
+    .grid-2-fr div:nth-child(2){
+        grid-row: 1;
+        padding-bottom: 1rem;
+    }
+    .grid-2-fr div:nth-child(2) figure{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-2-fr div:nth-child(2) img{
+        width: 150px;
+        height: auto;
+    }
+    .grid-2-fr div:nth-child(2) figcaption{
+        font-size: 0.8rem;
+    }
+    .grid-1-fr{
+        flex-direction: column;
+    }
+    .grid-1-fr img{
+        width: 90px;
+    }
+    .grid-1-fr p{
+        font-size: 1rem;
+    }
+}
+@media (333px <= width <= 522px){
+    /*TO Others Pages*/
+    body {
+        margin: 0 auto;
+        width: auto;
+        border: none;
+    }
+    header {
+        margin-top: 0;
+        height: auto;
+    }
+    header h1 {
+        font-size: 2.4rem;
+        padding-bottom: 1rem;
+    }
+    nav a {
+        width: auto;
+        padding: 5px 0;
+        font-size: 1rem;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .heading-primary {
+        font-size: 1.4rem;
+        padding: 1rem 0 0;
+    }
+    footer{
+        padding-bottom: 1rem;
+    }
+    footer nav a{
+        width: auto;
+    }
+    /**/
+    .grid-2-fr{
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+    .roasting-text{
+        font-size: 1rem;
+        overflow: visible;
+        padding-bottom: 1rem;
+    }
+    .roasting-img{
+        margin: 0;
+        margin: 0.3rem;
+    }
+    .grid-2-fr div:nth-child(2){
+        grid-row: 1;
+        padding-bottom: 1rem;
+    }
+    .grid-2-fr div:nth-child(2) figure{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-2-fr div:nth-child(2) img{
+        width: 150px;
+        height: auto;
+    }
+    .grid-2-fr div:nth-child(2) figcaption{
+        font-size: 0.8rem;
+    }
+    .grid-1-fr{
+        gap: 2rem;
+    }
+    .grid-1-fr img{
+        width: 80px;
+    }
+    .grid-1-fr p{
+        font-size: 0.8rem;
+    }
+}
+@media (522px <= width <= 800px){
+    /*TO Others Pages*/
+    body {
+        margin: 0 auto;
+        width: auto;
+        border: none;
+    }
+    header {
+        margin-top: 0;
+        height: auto;
+    }
+    header h1 {
+        font-size: 3rem;
+        padding-bottom: 1rem;
+    }
+    nav a {
+        width: auto;
+        padding: 5px 0;
+        font-size: 0.8rem;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .heading-primary {
+        font-size: 1.5rem;
+        padding: 1rem 0 0;
+    }
+    footer{
+        padding-bottom: 1rem;
+    }
+    footer nav a{
+        width: auto;
+    }
+    /**/
+    .grid-2-fr{
+        padding: 2rem;
+        gap: 1rem;
+    }
+    .grid-2-fr div:nth-child(2){
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-2-fr div:nth-child(2) img{
+        width: 200px;
+        height: auto;
+    }
+    .grid-2-fr div:nth-child(2) figure{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .roasting-img{
+        margin: 1rem 0.5rem;
+    }
+}
+@media (800px <= width <= 1000px){
+    /*TO Others Pages*/
+    body {
+        margin: 0 auto;
+        width: auto;
+        border: none;
+    }
+    header {
+        margin-top: 0;
+    }
+    nav a {
+        width: auto;
+        padding: 5px 0;
+        font-size: 1rem;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .heading-primary {
+        font-size: 1.3rem;
+        padding: 1rem 0 0;
+    }
+    footer{
+        padding-bottom: 1rem;
+    }
+    footer nav a{
+        width: auto;
+    }
+    /**/
+}

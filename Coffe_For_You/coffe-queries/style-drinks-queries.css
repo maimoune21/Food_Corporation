@@ -1,0 +1,254 @@
+@media (max-width: 333px) {
+    /*TO Others Pages*/
+    body {
+        margin: 0 auto;
+        width: auto;
+        border: none;
+    }
+    header {
+        margin-top: 0;
+        height: auto;
+    }
+    header h1 {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    nav a {
+        width: auto;
+        padding: 5px 0;
+        font-size: 0.9rem;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .heading-primary {
+        font-size: 1.3rem;
+        padding: 1rem 0 0;
+    }
+    footer{
+        padding-bottom: 1rem;
+    }
+    footer nav a{
+        width: auto;
+    }
+    /**/
+    video{
+        padding: 0.5rem;
+        margin: 0;
+        width: 250px;
+    }
+    .div-video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    caption{
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+    }
+    table{
+        margin: 0;
+        margin: 1rem;
+    }
+    th, td{
+        padding: 0;
+    }
+    td{
+        font-size: 0.8rem;
+    }
+    thead tr th:nth-child(3), th:nth-child(4), th:nth-child(5){
+        display: none;
+    }
+    tbody tr td:nth-child(3), td:nth-child(4), td:nth-child(5){
+        display: none;
+    }
+    .for-mbl{
+        display: table-cell;
+    }
+}
+@media (333px <= width <= 522px){
+    /*TO Others Pages*/
+    body {
+        margin: 0 auto;
+        width: auto;
+        border: none;
+    }
+    header {
+        margin-top: 0;
+        height: auto;
+    }
+    header h1 {
+        font-size: 2.4rem;
+        padding-bottom: 1rem;
+    }
+    nav a {
+        width: auto;
+        padding: 5px 0;
+        font-size: 1rem;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .heading-primary {
+        font-size: 1.4rem;
+        padding: 1rem 0 0;
+    }
+    footer{
+        padding-bottom: 1rem;
+    }
+    footer nav a{
+        width: auto;
+    }
+    /**/
+    video{
+        padding: 0.5rem;
+        margin: 0;
+        width: 320px;
+    }
+    .div-video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    caption{
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+    }
+    table{
+        margin: 0;
+        margin: 1rem;
+    }
+    th, td{
+        padding: 0;
+    }
+    td{
+        font-size: 0.9rem;
+    }
+    thead tr th:nth-child(3), th:nth-child(4), th:nth-child(5){
+        display: none;
+    }
+    tbody tr td:nth-child(3), td:nth-child(4), td:nth-child(5){
+        display: none;
+    }
+    .for-mbl{
+        display: table-cell;
+    }
+}
+@media (522px <= width <= 800px){
+    /*TO Others Pages*/
+    body {
+        margin: 0 auto;
+        width: auto;
+        border: none;
+    }
+    header {
+        margin-top: 0;
+        height: auto;
+    }
+    header h1 {
+        font-size: 3rem;
+        padding-bottom: 1rem;
+    }
+    nav a {
+        width: auto;
+        padding: 5px 0;
+        font-size: 0.8rem;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .heading-primary {
+        font-size: 1.5rem;
+        padding: 1rem 0 0;
+    }
+    footer{
+        padding-bottom: 1rem;
+    }
+    footer nav a{
+        width: auto;
+    }
+    /**/
+    video{
+        padding: 0.5rem;
+        margin: 0;
+        width: 400px;
+    }
+    .div-video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    caption{
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+    }
+    table{
+        margin: 0;
+        margin: 2rem;
+    }
+    th, td{
+        padding: 0.5rem;
+    }
+    td{
+        font-size: 0.9rem;
+    }
+
+}
+@media (800px <= width <= 1000px){
+    /*TO Others Pages*/
+    body {
+        margin: 0 auto;
+        width: auto;
+        border: none;
+    }
+    header {
+        margin-top: 0;
+    }
+    nav a {
+        width: auto;
+        padding: 5px 0;
+        font-size: 1rem;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .heading-primary {
+        font-size: 1.3rem;
+        padding: 1rem 0 0;
+    }
+    footer{
+        padding-bottom: 1rem;
+    }
+    footer nav a{
+        width: auto;
+    }
+    /**/
+    video{
+        padding: 0.5rem;
+        margin: 0;
+        width: 400px;
+    }
+    .div-video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    caption{
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+    }
+    table{
+        margin: 0;
+        margin: 2rem;
+    }
+    th, td{
+        padding: 0.8rem;
+    }
+    td{
+        font-size: 0.9rem;
+    }
+}

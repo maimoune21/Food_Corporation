@@ -1,0 +1,243 @@
+body{
+    font-family: 'Recursive', sans-serif;
+    margin: 0 auto;
+    width: 60rem;
+    background-color: #ffe8cc;
+    border-right: 1px solid brown;
+    border-left: 1px solid brown;
+}
+/****************/
+/* Header */
+header {
+    background-image: url(../images/coffee-beans.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130px;
+    font-size: 20px;
+    border-top: 1px solid brown;
+    margin-top: 1rem;
+}
+header h1 {
+    text-align: center;
+    padding-top: 1.3rem;
+    color: #fff;
+    margin: 0;
+    font-size: 50px;
+    cursor: pointer;
+
+    animation: Myan 2s ease infinite;
+    transition: all 1s;
+}
+@keyframes Myan {
+    0%,100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.04);
+      color: brown;
+    }
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    float: left;
+}
+nav a {
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1rem;
+}
+nav a:hover{
+    background-color: black;
+    color: white;
+}
+nav a:active{
+    background-color: #070808;
+    color: #d9480f;
+}
+/*******************/
+/* Main */
+.heading-primary{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 4rem 0 0;
+    color: brown;
+}
+.heading-primary span{
+    border-bottom: 3px solid brown;
+}
+.heading-primary span:hover{
+    border: none;
+}
+.grid-2-fr{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 2fr 1fr;
+    padding: 3.5rem 2rem 0 2rem;
+}
+.survey-img{
+    text-align: center;
+}
+.survey-img-child{
+    overflow: hidden;
+}
+.survey-img img:hover{
+    transform: scale(1.1);
+}
+.survey-img img{
+    border: 3px solid brown;
+    transition: all 1s;
+    cursor: pointer;
+}
+.survey-img div{
+    background-color: tan;
+    padding: 0.7rem 0 1.4rem;
+    margin: 0.88rem 0rem 0rem 1.8rem;
+    border: 1px solid brown;
+}
+form legend{
+    font-size: 1.3rem;
+    color: #e67700;
+}
+fieldset{
+    padding: 2.2rem;
+    margin-bottom: 1rem;
+}
+fieldset:nth-child(1) input{
+    float: right;
+    margin-right: 8rem;
+    padding: 0.6rem 2rem;
+    border-radius: 0.8rem;
+}
+fieldset input, textarea, select{
+    background-color: tan;
+    border: 1px solid black;
+}
+fieldset:nth-child(1) input::placeholder{
+    font-size: 0.8rem;
+}
+fieldset:nth-child(1) div{
+    padding-bottom: 2rem;
+}
+fieldset:nth-child(1) label{
+    margin-top: 1rem;
+}
+textarea{
+    margin-top: 1rem;
+}
+select{
+    padding: 0.6rem 2rem;
+    border-radius: 0.8rem;
+}
+#submit{
+    padding: 0.8rem 3rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-weight: 550;
+    font-size: 1rem;
+    border: none;
+    background-color: #e67700;
+    align-items: center;
+    font-family: cursive;
+}
+#submit:hover{
+    cursor: pointer;
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 40px #fff;
+}
+.send{
+    text-align: center;
+    padding-top: 2rem;
+}
+.contact-section{
+    border-radius: 11px;
+    background-color: tan;
+    box-shadow: 0 0 10px gray;
+    padding: 2.5rem 2rem;
+    margin: 3rem 2rem 4rem;
+    transition: all 1s;
+}
+.contact-section:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.contact-section h2 span{
+    letter-spacing: 0.3rem;
+    border-bottom: 3px solid brown;
+    color: brown;
+}
+.contact-section h2 span:hover{
+    border: none;
+    cursor: pointer;
+}
+.grid-4-fr{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 2.2rem;
+    padding: 2rem 1rem;
+}
+.contact-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(235, 211, 179);
+    box-shadow: 4px 1px 10px 2px #343a40;
+    padding: 1rem;
+    border-radius: 11px;
+    gap: 1rem;
+    transition: all 1s;
+}
+.contact-part:hover{
+    transform: scale(1.02);
+    color: #fff;
+}
+.contact-part span:hover{
+    transform: scale(1.1);
+}
+.contact-part span{
+    align-items: center;
+    background-color: tan;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+}
+.contact-part a ,p{
+    text-decoration: none;
+    color: grey;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    gap: 0.5rem;
+}
+.contact-info h3, p{
+    margin: 0;
+}
+/******************/
+/* Footer */
+footer{
+    padding: 0 0 4rem 0;
+}
+footer nav a {
+    color: grey;
+    text-decoration: none;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: #ffe8cc;
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Coffe For You </title>
+    <link rel="stylesheet" href="./coffe-css/style-survey.css">
+    <link rel="stylesheet" href="./coffe-queries/style-survey-queries.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <audio autoplay loop>
+            <source src="./audios/song2.mp3" type="audio/mp3" >
+            your browser does not support the audio tag
+        </audio>
+    </div>
+    <header>
+        <h1>Coffe For You</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index-roasting-coffe.html">Roasting</a></li>
+            <li><a href="index-grinding-coffe.html">Grinding</a></li>
+            <li><a href="index-brewing-coffe.html">Brewing</a></li>
+            <li><a href="index-drinks-coffe.html">Drinks</a></li>
+            <li><a href="index-survey-coffe.html">Coffee Survey</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class="heading-primary"><span>Coffee Survey</span></h1>
+        <div class="grid-2-fr">
+            <div>
+                <form action="#">
+                    <fieldset>
+                        <legend>Personal informations:</legend>
+                            <div>
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" placeholder="enter your name" autofocus required>
+                            </div>
+                            <div>
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" placeholder="enter a valid email address" required>
+                            </div>
+                            <div>
+                                <label for="password">Password</label>
+                                <input type="password" id="password" placeholder="enter the password" required>
+                            </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Your Coffee Preferences:</legend>
+                        <p>What is your favorite coffee drink?</p>
+                        <select>
+                            <option value="1" selected>Select a drink</option>
+                            <optgroup label="With sugar">
+                                <option value="2">drip coffee</option>
+                                <option value="3">french press</option>
+                                <option value="4">espresso</option>
+                            </optgroup>
+                            <optgroup label="No sugar">
+                                <option value="5">latte</option>
+                                <option value="6">flavored</option>
+                            </optgroup>
+                        </select>
+                        <br>
+                        <br>
+                        <p>Do you grind your own beans?</p>
+                        <span>
+                        <input type="radio" id="radio1" name="radiobutton">
+                        <label for="radio1">yes</label>
+                        <br>
+                        <input type="radio" id="radio2" name="radiobutton">
+                        <label for="radio2">no</label>
+                        </span>
+                        <br>
+                        <p>How do you drink your coffee?</p>
+                        <span>
+                        <input type="checkbox" id="checkbox1">
+                        <label for="checkbox1">with sugar</label>
+                        <br>
+                        <input type="checkbox" id="Checkbox2">
+                        <label for="Checkbox2">with cream</label>
+                        </span>
+                        <br>
+                        <br>
+                        <label for="Message">Tell us your coffee preparation methods.</label>
+                        <textarea name="Message" id="Message" cols="60" rows="10" placeholder="enter your Message" required></textarea>
+                        <br>
+                        <div class="send">
+                            <label for="submit"></label>
+                            <input type="submit" id="submit" value="Send">
+                        </div>
+                    </fieldset>
+                    </form>
+                </div>
+                <div class="survey-img">
+                        <div>
+                            <figure class="survey-img-child">
+                                <img src="./images/espresso.jpg" alt="a cuo of expresso">
+                            </figure>
+                        </div>
+                </div>
+        </div>
+        <div class="contact-section">
+            <h2><span>Contact :</span></h2>
+            <div class="grid-4-fr">
+                <div class="contact-part">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                            <path d="M3 7l9 6l9 -6" />
+                          </svg>
+                    </span>
+                    <div class="contact-info">
+                        <h3>Mail</h3>
+                        <a href="mohamedmaimouneh@gmail.com">mohamedmaimouneh@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-part">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-calling" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                            <path d="M15 7l0 .01" />
+                            <path d="M18 7l0 .01" />
+                            <path d="M21 7l0 .01" />
+                          </svg>
+                    </span>
+                    <div class="contact-info">
+                        <h3>Phone Number</h3>
+                        <a href="#">+212693656626</a>
+                    </div>
+                </div>
+                <div class="contact-part">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                            <path d="M16.5 7.5l0 .01" />
+                          </svg>
+                    </span>
+                    <div class="contact-info">
+                        <h3>Instagram</h3>
+                        <a href="#">Coffe-ig</a>
+                    </div>
+                </div>
+                <div class="contact-part">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-search" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5" />
+                            <path d="M9 4v13" />
+                            <path d="M15 7v5" />
+                            <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                            <path d="M20.2 20.2l1.8 1.8" />
+                          </svg>
+                    </span>
+                    <div class="contact-info">
+                        <h3>Location</h3>
+                        <p>Casablanca, Morocco </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index-roasting-coffe.html">Roasting</a></li>
+                <li><a href="index-grinding-coffe.html">Grinding</a></li>
+                <li><a href="index-brewing-coffe.html">Brewing</a></li>
+                <li><a href="index-drinks-coffe.html">Drinks</a></li>
+                <li><a href="index-survey-coffe.html">Coffee Survey</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
