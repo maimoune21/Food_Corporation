@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const dishImg = document.querySelector(".dish-img");
-    const images = ["./photos/img/food1.png", "./photos/img/food6.png", "./photos/img/food3.png"];
+    const images = ["./Foody/photos/img/food1.png", "./Foody/photos/img/food6.png", "./Foody/photos/img/food3.png"];
     let currentIndex = 0;
 
     function switchImage() {
