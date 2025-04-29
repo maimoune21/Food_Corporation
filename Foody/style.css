@@ -1306,14 +1306,14 @@ div.btn-group ul.dropdown-menu li a[href='#footer'] {
     margin-bottom: 0.5rem;
 }
 #comment {
-    background-color: rgba(128, 128, 128, 1);
-    color: white;
+    background-color: rgb(185, 185, 185);
+    color: #000;
     padding: 1.5rem 0.8rem;
     font-family: mv boli;
     border-radius: 0px 50px 0px 50px;
 }
 #comment::placeholder {
-    color: lightgrey;
+    color: #000;
     font-size: 1rem;
     font-family: mv boli;
 }
