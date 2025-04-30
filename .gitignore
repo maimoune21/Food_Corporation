@@ -1,0 +1,5 @@
+# Ignore Presentation video 
+Foody.mp4
+
+# Or ignore all MP4 files
+*.mp4
